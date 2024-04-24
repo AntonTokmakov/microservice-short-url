@@ -13,11 +13,16 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 import org.springframework.web.servlet.resource.NoResourceFoundException;
 
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+
 import static org.springframework.http.HttpStatus.BAD_REQUEST;
 
 @RestControllerAdvice
 @Slf4j
 public class GlobalExceptionHandler {
+
+    DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
 
     @ExceptionHandler(GeneratedUrlException.class)
     public ResponseEntity<ExceptionResponse> handleGeneratedUrlException(HttpServletRequest request,
@@ -80,13 +85,13 @@ public class GlobalExceptionHandler {
                 .toList().toString();
         message = message.substring(1, message.length() - 1);
         return ResponseEntity.status(status)
-                .body(new ExceptionResponse(request.getRequestURI(), message));
+                .body(new ExceptionResponse(LocalDateTime.now().format(formatter), request.getRequestURI(), message, status));
     }
 
     private ResponseEntity<ExceptionResponse> getResponse(HttpServletRequest request, Exception exception, HttpStatus status) {
         log.warn(exception.getClass().getName() + ": " + exception.getMessage());
         return ResponseEntity.status(status)
-                .body(new ExceptionResponse(request.getRequestURI(), exception.getMessage()));
+                .body(new ExceptionResponse(LocalDateTime.now().format(formatter), request.getRequestURI(), exception.getMessage(), status));
     }
 
 }

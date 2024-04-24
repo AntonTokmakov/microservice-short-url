@@ -39,7 +39,7 @@ public class UrlService implements GeneratorService, RedirectService, FindLink {
     public String generateShortUrl(String longUrl) {
 
         if (urlRepository.existsByLongUrl(longUrl)) {
-            throw new ExistsLinkException("Long URL %s already exists.\n Use GET /{shortUrl}".formatted(longUrl));
+            throw new ExistsLinkException("Long URL %s already exists. Use GET /short/{shortUrl}".formatted(longUrl));
         }
 
         try {

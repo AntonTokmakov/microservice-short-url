@@ -1,4 +1,6 @@
 package com.project.shorturlservice.controller.dto;
 
-public record ExceptionResponse(String path, String message) {
+import org.springframework.http.HttpStatus;
+
+public record ExceptionResponse(String timestamp, String path, String message, HttpStatus status) {
 }

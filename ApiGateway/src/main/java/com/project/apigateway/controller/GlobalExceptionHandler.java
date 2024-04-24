@@ -23,7 +23,7 @@ public class GlobalExceptionHandler {
 
 
     private ResponseEntity<ExceptionResponse> getResponse(ServerWebExchange request, Exception exception, HttpStatus status) {
-        log.error(exception.getClass().getName() + ": " + exception.getMessage());
+        log.warn(exception.getClass().getName() + ": " + exception.getMessage());
         return ResponseEntity.status(status)
                 .body(new ExceptionResponse(request.getRequest().getURI().toString(), exception.getMessage()));
     }
