@@ -1,6 +1,17 @@
+life:
+  url: 10
+
 spring:
   application:
     name: ShortUrlService
+  datasource:
+    url: jdbc:postgresql://postgres:5432/short_url
+    username: admin
+    password: password_admin
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
 
 eureka:
   client:

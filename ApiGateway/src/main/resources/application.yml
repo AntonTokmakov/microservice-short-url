@@ -8,19 +8,24 @@ spring:
           enabled: true
           lower-case-service-id: true
       routes:
-        - id: ShortUrlService
+        - id: ShortUrlServiceGenerate
           uri: lb://ShortUrlService
           predicates:
-            - Path=/api/v1/**
+            - Path=/api/v1/generate
           filters:
             - name: RequestRateLimiter
               args:
                 key-resolver: "#{@ipAddressKeyResolver}"
                 redis-rate-limiter.replenishRate: 100
                 redis-rate-limiter.burstCapacity: 100
+                redis-rate-limiter.timeout: 1000
+        - id: ShortUrlServiceGenerate
+          uri: lb://ShortUrlService
+          predicates:
+            - Path=/api/v1/**
 
 server:
-  port: 8091
+  port: 8090
 
 eureka:
   client:
