@@ -18,7 +18,7 @@ services:
     networks:
       - network
 
-  short-url-server:
+  eureka-server:
     restart: always
     build: ./ShortUrlServer
     ports:
@@ -29,16 +29,21 @@ services:
   short-url:
     restart: always
     build: ./ShortUrlService
+    deploy:
+      replicas: 3
     networks:
       - network
     depends_on:
       - postgres
-      - short-url-server
+      - eureka-server
 
   redis:
+    restart: always
     image: redis
     ports:
-      - "6379:6379"
+      - "6379"
+    networks:
+      - network
 
   api-gateway:
     restart: always
@@ -54,3 +59,4 @@ services:
 networks:
   network:
     driver: bridge
+

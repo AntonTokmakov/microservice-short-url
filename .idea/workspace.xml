@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b9475b4-c4ed-499c-ae07-cfd90c04e8dc" name="Changes" comment="Add a working shortUrlService">
-      <change afterPath="$PROJECT_DIR$/ApiGateway/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShortUrlServer/Dockerfile" afterDir="false" />
+    <list default="true" id="6b9475b4-c4ed-499c-ae07-cfd90c04e8dc" name="Changes" comment="Add Dockerfile, set up compose">
       <change afterPath="$PROJECT_DIR$/data/postgres/PG_VERSION" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/data/postgres/base/1/112" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/data/postgres/base/1/113" afterDir="false" />
@@ -1284,23 +1282,11 @@
       <change afterPath="$PROJECT_DIR$/data/postgres/postgresql.auto.conf" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/data/postgres/postgresql.conf" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/data/postgres/postmaster.opts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/postgres/postmaster.pid" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiGateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiGateway/src/main/java/com/project/apigateway/controller/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGateway/src/main/java/com/project/apigateway/controller/GlobalExceptionHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ApiGateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShortUrlServer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ShortUrlServer/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShortUrlServer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ShortUrlServer/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShortUrlService/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ShortUrlService/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShortUrlService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ShortUrlService/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/controller/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/controller/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/controller/TestController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/controller/dto/ExceptionResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/controller/dto/ExceptionResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/service/impl/UrlService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/service/impl/UrlService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShortUrlService/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ShortUrlService/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShortUrlService/src/test/java/com/project/shorturlservice/ShortUrlServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShortUrlService/src/test/java/com/project/shorturlservice/ShortUrlServiceApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/compose.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1310,8 +1296,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Dockerfile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -1340,7 +1326,9 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Docker.ApiGateway/Dockerfile.executor": "Run",
     "Docker.ApiGateway/compose.yml: Compose Deployment.executor": "Run",
+    "Docker.ShortUrlServer.executor": "Run",
     "Docker.ShortUrlServer/Dockerfile.executor": "Run",
+    "Docker.ShortUrlService.executor": "Run",
     "Docker.ShortUrlService/Dockerfile.executor": "Run",
     "Docker.compose.yaml.api-gateway: Compose Deployment.executor": "Run",
     "Docker.compose.yaml.postgres: Compose Deployment.executor": "Run",
@@ -1374,9 +1362,13 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "Console",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\anton\IdeaProjects\urlShort\micro-project" />
@@ -1437,18 +1429,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiGateway/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+    <configuration name="ShortUrlServer" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
       <deployment type="dockerfile">
         <settings>
-          <option name="sourceFilePath" value="ApiGateway/Dockerfile" />
+          <option name="containerName" value="" />
+          <option name="sourceFilePath" value="ShortUrlServer/Dockerfile" />
         </settings>
       </deployment>
       <method v="2" />
     </configuration>
-    <configuration name="ShortUrlServer/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+    <configuration name="ShortUrlService" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
       <deployment type="dockerfile">
         <settings>
-          <option name="sourceFilePath" value="ShortUrlServer/Dockerfile" />
+          <option name="buildOnly" value="true" />
+          <option name="containerName" value="" />
+          <option name="sourceFilePath" value="ShortUrlService/Dockerfile" />
         </settings>
       </deployment>
       <method v="2" />
@@ -1460,7 +1455,9 @@
       <method v="2" />
     </configuration>
     <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
-      <deployment type="dockerfile" />
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
       <method v="2" />
     </configuration>
     <configuration name="compose.yaml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
@@ -1471,12 +1468,12 @@
       </deployment>
       <method v="2" />
     </configuration>
-    <configuration name="compose.yaml.api-gateway: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+    <configuration name="compose.yaml.postgres: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
       <deployment type="docker-compose.yml">
         <settings>
           <option name="services">
             <list>
-              <option value="api-gateway" />
+              <option value="postgres" />
             </list>
           </option>
           <option name="sourceFilePath" value="compose.yaml" />
@@ -1484,12 +1481,12 @@
       </deployment>
       <method v="2" />
     </configuration>
-    <configuration name="compose.yaml.short-url-server: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+    <configuration name="compose.yaml.short-url: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
       <deployment type="docker-compose.yml">
         <settings>
           <option name="services">
             <list>
-              <option value="short-url-server" />
+              <option value="short-url" />
             </list>
           </option>
           <option name="sourceFilePath" value="compose.yaml" />
@@ -1498,10 +1495,10 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Docker.ApiGateway/Dockerfile" />
-      <item itemvalue="Docker.ShortUrlServer/Dockerfile" />
-      <item itemvalue="Docker.compose.yaml.api-gateway: Compose Deployment" />
-      <item itemvalue="Docker.compose.yaml.short-url-server: Compose Deployment" />
+      <item itemvalue="Docker.ShortUrlService" />
+      <item itemvalue="Docker.compose.yaml.postgres: Compose Deployment" />
+      <item itemvalue="Docker.compose.yaml.short-url: Compose Deployment" />
+      <item itemvalue="Docker.ShortUrlServer" />
       <item itemvalue="Docker.compose.yaml: Compose Deployment" />
       <item itemvalue="Spring Boot.ApiGatewayApplication" />
       <item itemvalue="Spring Boot.ShortUrlServerApplication" />
@@ -1512,10 +1509,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Docker.compose.yaml: Compose Deployment" />
-        <item itemvalue="Docker.compose.yaml.api-gateway: Compose Deployment" />
-        <item itemvalue="Docker.compose.yaml.short-url-server: Compose Deployment" />
-        <item itemvalue="Docker.ApiGateway/Dockerfile" />
-        <item itemvalue="Docker.ShortUrlServer/Dockerfile" />
+        <item itemvalue="Docker.compose.yaml.short-url: Compose Deployment" />
+        <item itemvalue="Docker.ShortUrlService" />
+        <item itemvalue="Docker.ShortUrlServer" />
+        <item itemvalue="Docker.compose.yaml.postgres: Compose Deployment" />
       </list>
     </recent_temporary>
   </component>
@@ -1535,7 +1532,8 @@
       <option name="presentableId" value="Default" />
       <updated>1713874188470</updated>
       <workItem from="1713874189598" duration="18041000" />
-      <workItem from="1713932052955" duration="12985000" />
+      <workItem from="1713932052955" duration="13558000" />
+      <workItem from="1713969489174" duration="15912000" />
     </task>
     <task id="LOCAL-00001" summary="Add Project ShortUrlServer, ShortUrlService, ApiGateway. Linked them together">
       <option name="closed" value="true" />
@@ -1553,7 +1551,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713940907461</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add Dockerfile, set up compose">
+      <option name="closed" value="true" />
+      <created>1713961923488</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1713961923488</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1574,6 +1580,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Add Project ShortUrlServer, ShortUrlService, ApiGateway. Linked them together" />
     <MESSAGE value="Add a working shortUrlService" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add a working shortUrlService" />
+    <MESSAGE value="Add Dockerfile, set up compose" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Dockerfile, set up compose" />
   </component>
 </project>
