@@ -34,8 +34,10 @@ services:
     networks:
       - network
     depends_on:
-      - postgres
-      - eureka-server
+      postgres:
+        condition: service_healthy
+      eureka-server:
+        condition: service_started
 
   redis:
     restart: always

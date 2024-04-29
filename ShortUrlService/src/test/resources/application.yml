@@ -1,0 +1,16 @@
+life:
+  url:
+    minutes: 10
+
+app:
+  url:
+    prefix: http://localhost:8090/api/v1/
+
+spring:
+  datasource:
+    url: jdbc:tc:postgresql:16:///short_url
+    username: admin
+    password: password_admin
+  jpa:
+    hibernate:
+      ddl-auto: update

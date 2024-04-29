@@ -8,7 +8,13 @@
         <option value="$PROJECT_DIR$/ShortUrlServer/pom.xml" />
         <option value="$PROJECT_DIR$/ShortUrlService/pom.xml" />
         <option value="$PROJECT_DIR$/ApiGateway/pom.xml" />
+        <option value="$PROJECT_DIR$/ScheduleTaskApplication/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/ScheduleTaskApplication/pom.xml" />
+      </set>
     </option>
     <option name="workspaceImportForciblyTurnedOn" value="true" />
   </component>
