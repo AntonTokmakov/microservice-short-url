@@ -12,11 +12,11 @@ import io.swagger.v3.oas.annotations.parameters.RequestBody;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.servers.Server;
 import jakarta.servlet.http.HttpServletResponse;
-import lombok.RequiredArgsConstructor;
-import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
+import lombok.RequiredArgsConstructor;
+import org.springframework.http.MediaType;
 
 @OpenAPIDefinition(
         servers = {
@@ -100,8 +100,7 @@ public class RedirectController {
     }))
 
     @GetMapping("{shortUrl}")
-    public void redirect(@PathVariable
-                                   String shortUrl, HttpServletResponse response) {
+    public void redirect(@PathVariable String shortUrl, HttpServletResponse response) {
         redirectService.redirectTo(shortUrl, response);
     }
 }

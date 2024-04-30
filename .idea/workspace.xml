@@ -5,18 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b9475b4-c4ed-499c-ae07-cfd90c04e8dc" name="Changes" comment="Create test controller">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ApiGateway/src/main/resources/application-docker.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShortUrlServer/src/main/resources/application-docker.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/service/ScheduledRemoveExpired.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShortUrlService/src/main/resources/application-docker.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShortUrlService/src/test/java/com/project/shorturlservice/controller/FindLinkControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShortUrlService/src/test/java/com/project/shorturlservice/controller/GeneratedUrlControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShortUrlService/src/test/java/com/project/shorturlservice/controller/RedirectControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShortUrlService/src/test/java/com/project/shorturlservice/service/impl/UrlServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShortUrlService/src/test/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShortUrlService/src/test/resources/com/project/shorturlservice/controller/sql/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShortUrlService/src/main/resources/logback.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/data/postgres/PG_VERSION" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/data/postgres/base/1/112" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/data/postgres/base/1/113" afterDir="false" />
@@ -1294,25 +1283,11 @@
       <change afterPath="$PROJECT_DIR$/data/postgres/postgresql.auto.conf" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/data/postgres/postgresql.conf" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/data/postgres/postmaster.opts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiGateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShortUrlServer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ShortUrlServer/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShortUrlService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ShortUrlService/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/ShortUrlServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/ShortUrlServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/controller/FindLinkController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/controller/FindLinkController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/controller/GeneratedUrlController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/controller/GeneratedUrlController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/controller/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/controller/GlobalExceptionHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/controller/RedirectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/controller/RedirectController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/controller/dto/FindLongUrlRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/controller/dto/FindShortUrlRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/controller/dto/GeneratedUrlResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/controller/dto/GeneratedUrlResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/controller/dto/RedirectUrlRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/repository/UrlRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/repository/UrlRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/service/RedirectService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/service/RedirectService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/service/impl/UrlService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/service/impl/UrlService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShortUrlService/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ShortUrlService/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/compose.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -1377,6 +1352,8 @@
     "Docker.compose-test.yaml.postgres_test: Compose Deployment.executor": "Run",
     "Docker.compose-test.yaml: Compose Deployment.executor": "Run",
     "Docker.compose.yaml.api-gateway: Compose Deployment.executor": "Run",
+    "Docker.compose.yaml.grafana: Compose Deployment.executor": "Run",
+    "Docker.compose.yaml.loki: Compose Deployment.executor": "Run",
     "Docker.compose.yaml.postgres: Compose Deployment.executor": "Run",
     "Docker.compose.yaml.redis: Compose Deployment.executor": "Run",
     "Docker.compose.yaml.short-url-server: Compose Deployment.executor": "Run",
@@ -1426,6 +1403,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
     "run.configurations.included.in.services": "true",
     "settings.editor.selected.configurable": "Console",
     "vue.rearranger.settings.migration": "true"
@@ -1472,7 +1450,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UrlServiceTest.givenNewLongUrl_whenGenerateShortUrl_thenShortUrlGeneratedSuccessfully">
+  <component name="RunManager" selected="Docker.compose.yaml.loki: Compose Deployment">
     <configuration name="GeneratedUrlControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ShortUrlService" />
       <extension name="coverage">
@@ -1484,53 +1462,6 @@
       <option name="PACKAGE_NAME" value="com.project.shorturlservice.controller" />
       <option name="MAIN_CLASS_NAME" value="com.project.shorturlservice.controller.GeneratedUrlControllerTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RedirectControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ShortUrlService" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.project.shorturlservice.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.project.shorturlservice.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.project.shorturlservice.controller.RedirectControllerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RedirectControllerTest.redirect_FailRedirectUrl_returnNotFoundException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ShortUrlService" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.project.shorturlservice.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.project.shorturlservice.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.project.shorturlservice.controller.RedirectControllerTest" />
-      <option name="METHOD_NAME" value="redirect_FailRedirectUrl_returnNotFoundException" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RedirectControllerTest.redirect_FailRedirectionTimeout_returnExpiredException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ShortUrlService" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.project.shorturlservice.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.project.shorturlservice.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.project.shorturlservice.controller.RedirectControllerTest" />
-      <option name="METHOD_NAME" value="redirect_FailRedirectionTimeout_returnExpiredException" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -1566,6 +1497,9 @@
       </method>
     </configuration>
     <configuration name="ShortUrlServiceApplication-inst1" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <envs>
+        <env name="LOKI" value="http://192.168.31.171:3100" />
+      </envs>
       <module name="ShortUrlService" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.project.shorturlservice.ShortUrlServiceApplication" />
       <method v="2">
@@ -1598,11 +1532,45 @@
       </deployment>
       <method v="2" />
     </configuration>
+    <configuration name="compose.yaml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="compose.yaml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="compose.yaml.grafana: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="grafana" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="compose.yaml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="compose.yaml.loki: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="loki" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="compose.yaml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <list>
+      <item itemvalue="Docker.compose.yaml.grafana: Compose Deployment" />
+      <item itemvalue="Docker.compose.yaml.loki: Compose Deployment" />
+      <item itemvalue="Docker.compose.yaml: Compose Deployment" />
       <item itemvalue="JUnit.GeneratedUrlControllerTest" />
-      <item itemvalue="JUnit.RedirectControllerTest" />
-      <item itemvalue="JUnit.RedirectControllerTest.redirect_FailRedirectUrl_returnNotFoundException" />
-      <item itemvalue="JUnit.RedirectControllerTest.redirect_FailRedirectionTimeout_returnExpiredException" />
       <item itemvalue="JUnit.UrlServiceTest.givenNewLongUrl_whenGenerateShortUrl_thenShortUrlGeneratedSuccessfully" />
       <item itemvalue="Spring Boot.ApiGatewayApplication" />
       <item itemvalue="Spring Boot.ShortUrlServerApplication" />
@@ -1612,11 +1580,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.compose.yaml.loki: Compose Deployment" />
+        <item itemvalue="Docker.compose.yaml: Compose Deployment" />
+        <item itemvalue="Docker.compose.yaml.grafana: Compose Deployment" />
         <item itemvalue="JUnit.UrlServiceTest.givenNewLongUrl_whenGenerateShortUrl_thenShortUrlGeneratedSuccessfully" />
         <item itemvalue="JUnit.GeneratedUrlControllerTest" />
-        <item itemvalue="JUnit.RedirectControllerTest" />
-        <item itemvalue="JUnit.RedirectControllerTest.redirect_FailRedirectionTimeout_returnExpiredException" />
-        <item itemvalue="JUnit.RedirectControllerTest.redirect_FailRedirectUrl_returnNotFoundException" />
       </list>
     </recent_temporary>
   </component>
@@ -1639,7 +1607,7 @@
       <workItem from="1713932052955" duration="13558000" />
       <workItem from="1713969489174" duration="58862000" />
       <workItem from="1714117530281" duration="13046000" />
-      <workItem from="1714154199165" duration="52399000" />
+      <workItem from="1714154199165" duration="60151000" />
     </task>
     <task id="LOCAL-00001" summary="Add Project ShortUrlServer, ShortUrlService, ApiGateway. Linked them together">
       <option name="closed" value="true" />
@@ -1673,7 +1641,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714029795759</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Create test controller">
+      <option name="closed" value="true" />
+      <created>1714385229252</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1714385229252</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
