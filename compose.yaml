@@ -58,6 +58,32 @@ services:
       - short-url
       - redis
 
+  grafana:
+    image: grafana/grafana:latest
+    container_name: grafana
+    ports:
+      - "3000:3000"
+    volumes:
+      - grafana_data:/var/lib/grafana
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+    networks:
+      - network
+
+  loki:
+    image: grafana/loki:latest
+    container_name: loki
+    ports:
+      - "3100:3100"
+    volumes:
+      - loki_data:/data
+    networks:
+      - network
+
+volumes:
+  grafana_data:
+  loki_data:
+
 networks:
   network:
     driver: bridge

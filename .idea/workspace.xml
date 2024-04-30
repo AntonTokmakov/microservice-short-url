@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b9475b4-c4ed-499c-ae07-cfd90c04e8dc" name="Changes" comment="Create test controller">
+    <list default="true" id="6b9475b4-c4ed-499c-ae07-cfd90c04e8dc" name="Changes" comment="Add grafana and loki">
       <change afterPath="$PROJECT_DIR$/ShortUrlService/src/main/resources/logback.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/data/postgres/PG_VERSION" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/data/postgres/base/1/112" afterDir="false" />
@@ -1283,11 +1283,7 @@
       <change afterPath="$PROJECT_DIR$/data/postgres/postgresql.auto.conf" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/data/postgres/postgresql.conf" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/data/postgres/postmaster.opts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShortUrlService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ShortUrlService/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/controller/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/controller/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/controller/RedirectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/controller/RedirectController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/service/impl/UrlService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/service/impl/UrlService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/compose.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -1607,7 +1603,7 @@
       <workItem from="1713932052955" duration="13558000" />
       <workItem from="1713969489174" duration="58862000" />
       <workItem from="1714117530281" duration="13046000" />
-      <workItem from="1714154199165" duration="60151000" />
+      <workItem from="1714154199165" duration="61106000" />
     </task>
     <task id="LOCAL-00001" summary="Add Project ShortUrlServer, ShortUrlService, ApiGateway. Linked them together">
       <option name="closed" value="true" />
@@ -1649,7 +1645,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714385229252</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add grafana and loki">
+      <option name="closed" value="true" />
+      <created>1714442538750</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1714442538750</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1673,7 +1677,8 @@
     <MESSAGE value="Add Dockerfile, set up compose" />
     <MESSAGE value="Refactoring compose" />
     <MESSAGE value="Create test controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create test controller" />
+    <MESSAGE value="Add grafana and loki" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add grafana and loki" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

@@ -67,11 +67,11 @@ public class GlobalExceptionHandler {
         return getResponse(request, exception, HttpStatus.NOT_FOUND);
     }
 
-//    @ExceptionHandler(Exception.class)
-//    public ResponseEntity<ExceptionResponse> handleOtherException(HttpServletRequest request,
-//                                                                     Exception exception) {
-//        return getResponse(request, exception, HttpStatus.INTERNAL_SERVER_ERROR);
-//    }
+    @ExceptionHandler(Exception.class)
+    public ResponseEntity<ExceptionResponse> handleOtherException(HttpServletRequest request,
+                                                                     Exception exception) {
+        return getResponse(request, exception, HttpStatus.INTERNAL_SERVER_ERROR);
+    }
 
     private ResponseEntity<ExceptionResponse> getResponseEntityValid(HttpServletRequest request,
                                                                      Exception exception,
