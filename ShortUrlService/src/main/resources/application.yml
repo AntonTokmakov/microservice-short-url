@@ -1,11 +1,10 @@
 life:
   url:
-    minutes: 1
+    minutes: 10
 
 app:
   url:
-    prefix: lb://ApiGateway/
-#    http://localhost:8090/api/v1/
+    prefix: http://localhost:8090/api/v1/
 
 spring:
   application:
@@ -21,6 +20,7 @@ spring:
 
 eureka:
   client:
+    should-unregister-on-shutdown: false
     service-url:
       defaultZone: http://localhost:8761/eureka/
   instance:

@@ -19,7 +19,7 @@ public class Url {
     private long id;
     @NotNull
     @URL
-    @Column(nullable = false, unique = true)
+    @Column(nullable = false, unique = true, length = 1024)
     private String longUrl;
     @NotNull
     @Column(nullable = false, unique = true)

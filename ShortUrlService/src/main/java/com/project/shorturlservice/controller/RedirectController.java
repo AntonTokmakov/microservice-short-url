@@ -4,19 +4,17 @@ import com.project.shorturlservice.controller.dto.ExceptionResponse;
 import com.project.shorturlservice.service.RedirectService;
 import io.swagger.v3.oas.annotations.OpenAPIDefinition;
 import io.swagger.v3.oas.annotations.Operation;
-import io.swagger.v3.oas.annotations.StringToClassMapItem;
 import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.media.ExampleObject;
 import io.swagger.v3.oas.annotations.media.Schema;
-import io.swagger.v3.oas.annotations.parameters.RequestBody;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.servers.Server;
 import jakarta.servlet.http.HttpServletResponse;
+import lombok.RequiredArgsConstructor;
+import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
-import lombok.RequiredArgsConstructor;
-import org.springframework.http.MediaType;
 
 @OpenAPIDefinition(
         servers = {
@@ -32,20 +30,6 @@ public class RedirectController {
     @Operation(summary = "Переход по короткой ссылке",
             description = "Endpoint для перехода по короткой ссылке",
             tags = {"Переход по короткой ссылке"})
-    @RequestBody( content = @Content(
-            mediaType = MediaType.APPLICATION_JSON_VALUE,
-            schema = @Schema(type = "object",
-                    properties = {
-                            @StringToClassMapItem(key = "shortUrl", value = String.class),
-                    }),
-            examples = {
-                    @ExampleObject(name = "exampleRequest",
-                    value = "{\"shortUrl\": \"http://localhost:8090/api/v1/Yic-yBB_\"}",
-                    description = "Запрос с корректными данными"),
-                    @ExampleObject(name = "ErrorRequest",
-                            value = "{\"shortUrl\": \"Какой-то текст\"}",
-                    description = "Запрос с некорректными данными"),
-    }))
     @ApiResponse(responseCode = "302", description = "Переход на сайт по кототкой ссылке",
             content = @Content(mediaType = MediaType.TEXT_HTML_VALUE,
                     schema = @Schema(implementation = String.class),

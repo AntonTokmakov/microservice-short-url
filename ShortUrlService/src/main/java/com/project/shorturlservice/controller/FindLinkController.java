@@ -2,23 +2,21 @@ package com.project.shorturlservice.controller;
 
 import com.project.shorturlservice.controller.dto.ExceptionResponse;
 import com.project.shorturlservice.controller.dto.FindLongUrlResponse;
-import com.project.shorturlservice.controller.dto.FindShortUrlResponse;
 import com.project.shorturlservice.service.FindLink;
 import io.swagger.v3.oas.annotations.OpenAPIDefinition;
 import io.swagger.v3.oas.annotations.Operation;
-import io.swagger.v3.oas.annotations.StringToClassMapItem;
 import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.media.ExampleObject;
 import io.swagger.v3.oas.annotations.media.Schema;
-import io.swagger.v3.oas.annotations.parameters.RequestBody;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.servers.Server;
-import jakarta.validation.constraints.NotBlank;
 import lombok.RequiredArgsConstructor;
-import org.hibernate.validator.constraints.URL;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 @OpenAPIDefinition(
         servers = {
@@ -35,20 +33,6 @@ public class FindLinkController {
     @Operation(summary = "Найти длинную ссылку",
             description = "Endpoint для поиска длинной ссылки",
             tags = {"Поиск длинной ссылки"})
-    @RequestBody( content = @Content(
-            mediaType = MediaType.APPLICATION_JSON_VALUE,
-            schema = @Schema(type = "object",
-                    properties = {
-                            @StringToClassMapItem(key = "shortUrl", value = String.class),
-                    }),
-            examples = {
-                    @ExampleObject(name = "exampleRequest",
-                            value = "{\"shortUrl\": \"http://localhost:8090/api/v1/Yic-yBB_\"}",
-                            description = "Запрос с корректными данными"),
-                    @ExampleObject(name = "ErrorRequest",
-                            value = "{\"shortUrl\": \"Какой-то текст\"}",
-                            description = "Запрос с некорректными данными"),
-            }))
     @ApiResponse(responseCode = "200", description = "Успех",
             content = @Content(mediaType = MediaType.APPLICATION_JSON_VALUE,
             schema = @Schema(implementation = FindLongUrlResponse.class),

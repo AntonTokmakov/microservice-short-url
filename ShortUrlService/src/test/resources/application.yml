@@ -14,3 +14,9 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
+
+eureka:
+  client:
+    should-unregister-on-shutdown: false
+    register-with-eureka: false
+    fetch-registry: false

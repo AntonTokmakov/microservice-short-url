@@ -38,12 +38,14 @@ services:
         condition: service_healthy
       eureka-server:
         condition: service_started
+      grafana:
+        condition: service_started
 
   redis:
     restart: always
     image: redis
     ports:
-      - "6379"
+      - "6379:6379"
     networks:
       - network
 
@@ -69,6 +71,8 @@ services:
       - GF_SECURITY_ADMIN_PASSWORD=admin
     networks:
       - network
+    depends_on:
+      - loki
 
   loki:
     image: grafana/loki:latest
@@ -87,4 +91,3 @@ volumes:
 networks:
   network:
     driver: bridge
-

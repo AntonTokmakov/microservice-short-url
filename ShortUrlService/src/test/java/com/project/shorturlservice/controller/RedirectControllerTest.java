@@ -60,11 +60,9 @@ class RedirectControllerTest {
                         status().isGone(),
                         content().json("""
                     {
-                        \"message\":\"Short URL http://localhost:8090/api/v1/VrgjTPgy expired\"
+                        "message":"Short URL http://localhost:8090/api/v1/VrgjTPgy expired"
                     }
                     """)
                 );
     }
-
-
 }

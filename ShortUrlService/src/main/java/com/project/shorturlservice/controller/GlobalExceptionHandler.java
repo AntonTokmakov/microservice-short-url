@@ -11,7 +11,6 @@ import org.springframework.validation.ObjectError;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
-import org.springframework.web.method.annotation.HandlerMethodValidationException;
 import org.springframework.web.servlet.resource.NoResourceFoundException;
 
 import java.time.LocalDateTime;
@@ -54,6 +53,11 @@ public class GlobalExceptionHandler {
     public ResponseEntity<ExceptionResponse> handleLifeTimeExpiredException(HttpServletRequest request,
                                                                             Exception exception) {
         return getResponse(request, exception, HttpStatus.GONE);
+    }
+    @ExceptionHandler(IllegalArgumentException.class)
+    public ResponseEntity<ExceptionResponse> handleIllegalArgumentException(HttpServletRequest request,
+                                                                            Exception exception) {
+        return getResponse(request, exception, BAD_REQUEST);
     }
 
     @ExceptionHandler(LinkNotFoundException.class)

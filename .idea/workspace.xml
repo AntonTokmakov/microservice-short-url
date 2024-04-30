@@ -5,17 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b9475b4-c4ed-499c-ae07-cfd90c04e8dc" name="Changes" comment="Refactor grafana and loki">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/READMI.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/config/LogbackConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApiGateway/src/main/java/com/project/apigateway/RequestRateLimiterFilterFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApiGateway/src/main/java/com/project/apigateway/controller/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApiGateway/src/main/java/com/project/apigateway/controller/dto/ExceptionResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApiGateway/src/main/resources/application-docker.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGateway/src/main/resources/application-docker.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ApiGateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/ShortUrlServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/ShortUrlServiceApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/controller/FindLinkController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/controller/FindLinkController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/controller/GeneratedUrlController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/controller/GeneratedUrlController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/controller/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/controller/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/repository/UrlRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/repository/UrlRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/service/FindLink.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/service/FindLink.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/service/ScheduledRemoveExpired.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/controller/RedirectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/controller/RedirectController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/model/Url.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/model/Url.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/service/impl/UrlService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/service/impl/UrlService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShortUrlService/src/main/resources/application-docker.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ShortUrlService/src/main/resources/application-docker.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShortUrlService/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ShortUrlService/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShortUrlService/src/main/resources/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShortUrlService/src/test/java/com/project/shorturlservice/ShortUrlServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShortUrlService/src/test/java/com/project/shorturlservice/controller/GeneratedUrlControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShortUrlService/src/test/java/com/project/shorturlservice/controller/GeneratedUrlControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShortUrlService/src/test/java/com/project/shorturlservice/controller/RedirectControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShortUrlService/src/test/java/com/project/shorturlservice/controller/RedirectControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShortUrlService/src/test/java/com/project/shorturlservice/service/impl/UrlServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShortUrlService/src/test/java/com/project/shorturlservice/service/impl/UrlServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShortUrlService/src/test/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ShortUrlService/src/test/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/compose.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,12 +41,17 @@
       <list>
         <option value="Dockerfile" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="4387c00eadb5e19f5503e7df0e80deb18e92d860" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -69,81 +88,93 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Docker.ApiGateway/Dockerfile.executor&quot;: &quot;Run&quot;,
-    &quot;Docker.ApiGateway/compose.yml: Compose Deployment.executor&quot;: &quot;Run&quot;,
-    &quot;Docker.ShortUrlServer.executor&quot;: &quot;Run&quot;,
-    &quot;Docker.ShortUrlServer/Dockerfile.executor&quot;: &quot;Run&quot;,
-    &quot;Docker.ShortUrlService.executor&quot;: &quot;Run&quot;,
-    &quot;Docker.ShortUrlService/Dockerfile.executor&quot;: &quot;Run&quot;,
-    &quot;Docker.compose-test.yaml.postgres: Compose Deployment.executor&quot;: &quot;Run&quot;,
-    &quot;Docker.compose-test.yaml.postgres_test: Compose Deployment.executor&quot;: &quot;Run&quot;,
-    &quot;Docker.compose-test.yaml: Compose Deployment.executor&quot;: &quot;Run&quot;,
-    &quot;Docker.compose.yaml.api-gateway: Compose Deployment.executor&quot;: &quot;Run&quot;,
-    &quot;Docker.compose.yaml.grafana: Compose Deployment.executor&quot;: &quot;Run&quot;,
-    &quot;Docker.compose.yaml.loki: Compose Deployment.executor&quot;: &quot;Run&quot;,
-    &quot;Docker.compose.yaml.postgres: Compose Deployment.executor&quot;: &quot;Run&quot;,
-    &quot;Docker.compose.yaml.redis: Compose Deployment.executor&quot;: &quot;Run&quot;,
-    &quot;Docker.compose.yaml.short-url-server: Compose Deployment.executor&quot;: &quot;Run&quot;,
-    &quot;Docker.compose.yaml.short-url: Compose Deployment.executor&quot;: &quot;Run&quot;,
-    &quot;Docker.compose.yaml: Compose Deployment.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.All in ShortUrlService.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.GeneratedUrlControllerTest.executor&quot;: &quot;Coverage&quot;,
-    &quot;JUnit.GeneratedUrlControllerTest.generateShortUrl_FailExistsShortUrl_returnConflict.executor&quot;: &quot;Coverage&quot;,
-    &quot;JUnit.GeneratedUrlControllerTest.generateShortUrl_SuccessCreateShortUrl_returnShortUrl.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.GeneratedUrlControllerTest.generateShortUrl_SuccessCreateShortUrl_returnShortUrl2.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.GeneratedUrlControllerTest.generateShortUrl_SuccessCreateShortUrl_returnShortUrl3.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.GeneratedUrlControllerTest.generateShortUrl_SuccessCreateShortUrl_returnShortUrl4.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.RedirectControllerTest.executor&quot;: &quot;Coverage&quot;,
-    &quot;JUnit.RedirectControllerTest.redirect_FailRedirectUrl_returnNotFound.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.RedirectControllerTest.redirect_FailRedirectUrl_returnNotFoundException.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.RedirectControllerTest.redirect_FailRedirectionTimeout_returnExpiredException.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.RedirectControllerTest.redirect_SuccessRedirectUrl_returnSite.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.UrlServiceTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.UrlServiceTest.generateShortUrlSuccess.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.UrlServiceTest.getShortUrl_SuccessCreateShortUrl_returnShortUrl.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.UrlServiceTest.givenNewLongUrl_whenGenerateShortUrl_thenShortUrlGeneratedSuccessfully.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.UrlServiceTest.testGenerateShortUrlForExistingLongUrl.executor&quot;: &quot;Debug&quot;,
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.ShortUrlService [org.apache.maven.plugins:maven-jar-plugin:3.3.0:jar].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.micro-project [package].executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Spring Boot.ApiGatewayApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.ShortUrlServerApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.ShortUrlServiceApplication-inst1.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.ShortUrlServiceApplication-inst2.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.ShortUrlServiceApplication-inst3.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.ShortUrlServiceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/anton/IdeaProjects/urlShort/micro-project/ShortUrlService/src/test/resources/com/project/shorturlservice/controller/sql/data.sql&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Console&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Docker.ApiGateway/Dockerfile.executor": "Run",
+    "Docker.ApiGateway/compose.yml: Compose Deployment.executor": "Run",
+    "Docker.ShortUrlServer.executor": "Run",
+    "Docker.ShortUrlServer/Dockerfile.executor": "Run",
+    "Docker.ShortUrlService.executor": "Run",
+    "Docker.ShortUrlService/Dockerfile.executor": "Run",
+    "Docker.compose-test.yaml.postgres: Compose Deployment.executor": "Run",
+    "Docker.compose-test.yaml.postgres_test: Compose Deployment.executor": "Run",
+    "Docker.compose-test.yaml: Compose Deployment.executor": "Run",
+    "Docker.compose.yaml.api-gateway: Compose Deployment.executor": "Run",
+    "Docker.compose.yaml.grafana: Compose Deployment.executor": "Run",
+    "Docker.compose.yaml.loki: Compose Deployment.executor": "Run",
+    "Docker.compose.yaml.postgres: Compose Deployment.executor": "Run",
+    "Docker.compose.yaml.redis: Compose Deployment.executor": "Run",
+    "Docker.compose.yaml.short-url-server: Compose Deployment.executor": "Run",
+    "Docker.compose.yaml.short-url: Compose Deployment.executor": "Run",
+    "Docker.compose.yaml: Compose Deployment.executor": "Run",
+    "JUnit.All in ShortUrlService.executor": "Run",
+    "JUnit.GeneratedUrlControllerTest.executor": "Run",
+    "JUnit.GeneratedUrlControllerTest.generateShortUrl_FailExistsShortUrl_returnConflict.executor": "Coverage",
+    "JUnit.GeneratedUrlControllerTest.generateShortUrl_SuccessCreateShortUrl_returnShortUrl.executor": "Run",
+    "JUnit.GeneratedUrlControllerTest.generateShortUrl_SuccessCreateShortUrl_returnShortUrl2.executor": "Run",
+    "JUnit.GeneratedUrlControllerTest.generateShortUrl_SuccessCreateShortUrl_returnShortUrl3.executor": "Run",
+    "JUnit.GeneratedUrlControllerTest.generateShortUrl_SuccessCreateShortUrl_returnShortUrl4.executor": "Run",
+    "JUnit.RedirectControllerTest.executor": "Run",
+    "JUnit.RedirectControllerTest.redirect_FailRedirectUrl_returnNotFound.executor": "Run",
+    "JUnit.RedirectControllerTest.redirect_FailRedirectUrl_returnNotFoundException.executor": "Run",
+    "JUnit.RedirectControllerTest.redirect_FailRedirectionTimeout_returnExpiredException.executor": "Run",
+    "JUnit.RedirectControllerTest.redirect_SuccessRedirectUrl_returnSite.executor": "Run",
+    "JUnit.UrlServiceTest.executor": "Run",
+    "JUnit.UrlServiceTest.generateShortUrlSuccess.executor": "Run",
+    "JUnit.UrlServiceTest.getShortUrl_SuccessCreateShortUrl_returnShortUrl.executor": "Run",
+    "JUnit.UrlServiceTest.givenExistingLongUrl_whenGenerateShortUrl_thenUpdateShortUrlSuccessfully.executor": "Run",
+    "JUnit.UrlServiceTest.givenNewLongUrl_whenGenerateShortUrl_thenShortUrlGeneratedSuccessfully.executor": "Run",
+    "JUnit.UrlServiceTest.testGenerateShortUrlForExistingLongUrl.executor": "Debug",
+    "JUnit.UrlServiceTest.whenDatabaseExceptionOnExistsBy_thenHandleGracefully.executor": "Run",
+    "JUnit.UrlServiceTest.whenGenerateShortUrlWithNullInput_thenThrowException.executor": "Run",
+    "JUnit.UrlServiceTest.whenGenerateShortUrlWithValidLongUrl_thenShortUrlIsGenerated.executor": "Run",
+    "JUnit.UrlServiceTest.whenGetLongUrl_withExpiredUrl_thenThrowException.executor": "Run",
+    "JUnit.UrlServiceTest.whenGetLongUrl_withNonExistentShortUrl_thenThrowLinkNotFoundException.executor": "Run",
+    "JUnit.UrlServiceTest.whenGetLongUrl_withValidShortUrl_thenReturnsLongUrl.executor": "Run",
+    "JUnit.UrlServiceTest.whenIOExceptionOnRedirect_thenHandleGracefully.executor": "Run",
+    "JUnit.UrlServiceTest.whenRedirectTo_thenRedirectSuccessfully.executor": "Run",
+    "JUnit.UrlServiceTest.whenRedirectTo_withExpiredUrl_thenThrowException.executor": "Run",
+    "JUnit.UrlServiceTest.whenRedirectTo_withNonExistentShortUrl_thenThrowLinkNotFoundException.executor": "Run",
+    "JUnit.UrlServiceTest.whenUrlExpired_thenThrowLifeTimeExpiredException.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.ShortUrlService [org.apache.maven.plugins:maven-jar-plugin:3.3.0:jar].executor": "Run",
+    "Maven.micro-project [package].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.ApiGatewayApplication.executor": "Run",
+    "Spring Boot.ShortUrlServerApplication.executor": "Run",
+    "Spring Boot.ShortUrlServiceApplication-inst1.executor": "Run",
+    "Spring Boot.ShortUrlServiceApplication-inst2.executor": "Run",
+    "Spring Boot.ShortUrlServiceApplication-inst3.executor": "Run",
+    "Spring Boot.ShortUrlServiceApplication.executor": "Run",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "21",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/anton/IdeaProjects/urlShort/micro-project/ShortUrlService/src/test/resources/com/project/shorturlservice/controller/sql/data.sql",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "Console",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect&quot;: [
-      &quot;PostgreSQL&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect": [
+      "PostgreSQL"
     ]
   }
-}</component>
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -180,23 +211,8 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Docker.compose.yaml.loki: Compose Deployment">
-    <configuration name="GeneratedUrlControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ShortUrlService" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.project.shorturlservice.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.project.shorturlservice.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.project.shorturlservice.controller.GeneratedUrlControllerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UrlServiceTest.givenNewLongUrl_whenGenerateShortUrl_thenShortUrlGeneratedSuccessfully" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Docker.compose.yaml.grafana: Compose Deployment">
+    <configuration name="UrlServiceTest.whenGenerateShortUrlWithValidLongUrl_thenShortUrlIsGenerated" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ShortUrlService" />
       <extension name="coverage">
         <pattern>
@@ -206,7 +222,55 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.project.shorturlservice.service.impl" />
       <option name="MAIN_CLASS_NAME" value="com.project.shorturlservice.service.impl.UrlServiceTest" />
-      <option name="METHOD_NAME" value="givenNewLongUrl_whenGenerateShortUrl_thenShortUrlGeneratedSuccessfully" />
+      <option name="METHOD_NAME" value="whenGenerateShortUrlWithValidLongUrl_thenShortUrlIsGenerated" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UrlServiceTest.whenGetLongUrl_withExpiredUrl_thenThrowException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ShortUrlService" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.project.shorturlservice.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.project.shorturlservice.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.project.shorturlservice.service.impl.UrlServiceTest" />
+      <option name="METHOD_NAME" value="whenGetLongUrl_withExpiredUrl_thenThrowException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UrlServiceTest.whenGetLongUrl_withNonExistentShortUrl_thenThrowLinkNotFoundException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ShortUrlService" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.project.shorturlservice.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.project.shorturlservice.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.project.shorturlservice.service.impl.UrlServiceTest" />
+      <option name="METHOD_NAME" value="whenGetLongUrl_withNonExistentShortUrl_thenThrowLinkNotFoundException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UrlServiceTest.whenUrlExpired_thenThrowLifeTimeExpiredException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ShortUrlService" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.project.shorturlservice.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.project.shorturlservice.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.project.shorturlservice.service.impl.UrlServiceTest" />
+      <option name="METHOD_NAME" value="whenUrlExpired_thenThrowLifeTimeExpiredException" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -228,7 +292,7 @@
     </configuration>
     <configuration name="ShortUrlServiceApplication-inst1" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <envs>
-        <env name="LOKI" value="http://192.168.31.171:3100" />
+        <env name="LOKI" value="http://localhost:3100" />
       </envs>
       <module name="ShortUrlService" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.project.shorturlservice.ShortUrlServiceApplication" />
@@ -244,6 +308,9 @@
       </method>
     </configuration>
     <configuration name="ShortUrlServiceApplication-inst3" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <envs>
+        <env name="LOKI" value="http://192.168.31.171:3100" />
+      </envs>
       <module name="ShortUrlService" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.project.shorturlservice.ShortUrlServiceApplication" />
       <method v="2">
@@ -262,14 +329,6 @@
       </deployment>
       <method v="2" />
     </configuration>
-    <configuration name="compose.yaml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="sourceFilePath" value="compose.yaml" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
     <configuration name="compose.yaml.grafana: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
       <deployment type="docker-compose.yml">
         <settings>
@@ -283,25 +342,12 @@
       </deployment>
       <method v="2" />
     </configuration>
-    <configuration name="compose.yaml.loki: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="services">
-            <list>
-              <option value="loki" />
-            </list>
-          </option>
-          <option name="sourceFilePath" value="compose.yaml" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Docker.compose.yaml.grafana: Compose Deployment" />
-      <item itemvalue="Docker.compose.yaml.loki: Compose Deployment" />
-      <item itemvalue="Docker.compose.yaml: Compose Deployment" />
-      <item itemvalue="JUnit.GeneratedUrlControllerTest" />
-      <item itemvalue="JUnit.UrlServiceTest.givenNewLongUrl_whenGenerateShortUrl_thenShortUrlGeneratedSuccessfully" />
+      <item itemvalue="JUnit.UrlServiceTest.whenGenerateShortUrlWithValidLongUrl_thenShortUrlIsGenerated" />
+      <item itemvalue="JUnit.UrlServiceTest.whenGetLongUrl_withExpiredUrl_thenThrowException" />
+      <item itemvalue="JUnit.UrlServiceTest.whenGetLongUrl_withNonExistentShortUrl_thenThrowLinkNotFoundException" />
+      <item itemvalue="JUnit.UrlServiceTest.whenUrlExpired_thenThrowLifeTimeExpiredException" />
       <item itemvalue="Spring Boot.ApiGatewayApplication" />
       <item itemvalue="Spring Boot.ShortUrlServerApplication" />
       <item itemvalue="Spring Boot.ShortUrlServiceApplication-inst1" />
@@ -310,11 +356,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Docker.compose.yaml.loki: Compose Deployment" />
-        <item itemvalue="Docker.compose.yaml: Compose Deployment" />
         <item itemvalue="Docker.compose.yaml.grafana: Compose Deployment" />
-        <item itemvalue="JUnit.UrlServiceTest.givenNewLongUrl_whenGenerateShortUrl_thenShortUrlGeneratedSuccessfully" />
-        <item itemvalue="JUnit.GeneratedUrlControllerTest" />
+        <item itemvalue="JUnit.UrlServiceTest.whenUrlExpired_thenThrowLifeTimeExpiredException" />
+        <item itemvalue="JUnit.UrlServiceTest.whenGenerateShortUrlWithValidLongUrl_thenShortUrlIsGenerated" />
+        <item itemvalue="JUnit.UrlServiceTest.whenGetLongUrl_withExpiredUrl_thenThrowException" />
+        <item itemvalue="JUnit.UrlServiceTest.whenGetLongUrl_withNonExistentShortUrl_thenThrowLinkNotFoundException" />
       </list>
     </recent_temporary>
   </component>
@@ -426,6 +472,15 @@
     <option name="LAST_COMMIT_MESSAGE" value="Refactor grafana and loki" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/config/GatewayConfig.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
         <watch expression="((String[])args)[0]" custom="java.lang.String[]" />

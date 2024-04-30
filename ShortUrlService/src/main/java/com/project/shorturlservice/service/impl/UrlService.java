@@ -1,6 +1,9 @@
 package com.project.shorturlservice.service.impl;
 
-import com.project.shorturlservice.exception.*;
+import com.project.shorturlservice.exception.GeneratedUrlException;
+import com.project.shorturlservice.exception.LifeTimeExpiredException;
+import com.project.shorturlservice.exception.LinkNotFoundException;
+import com.project.shorturlservice.exception.RedirectException;
 import com.project.shorturlservice.model.Url;
 import com.project.shorturlservice.repository.UrlRepository;
 import com.project.shorturlservice.service.FindLink;
@@ -35,10 +38,8 @@ public class UrlService implements GeneratorService, RedirectService, FindLink {
     @Override
     public String generateShortUrl(String longUrl) {
 
-        try {
-            Thread.sleep(5000);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
+        if (longUrl == null || longUrl.isEmpty()) {
+            throw new IllegalArgumentException("Long URL cannot be empty");
         }
 
         if (urlRepository.existsByLongUrl(longUrl)) {
@@ -49,19 +50,10 @@ public class UrlService implements GeneratorService, RedirectService, FindLink {
             return prefixUrl + url.getShortUrl();
         }
 
-        try {
-            MessageDigest messageDigest = MessageDigest.getInstance("SHA-256");
-            byte[] hash = messageDigest.digest(longUrl.getBytes(StandardCharsets.UTF_8));
-            String shortUrl = Base64.getUrlEncoder().withoutPadding().encodeToString(hash).substring(0, 8);
-            urlRepository.save(new Url(longUrl, shortUrl, ZonedDateTime.now()));
-            log.info("Create Short URL: %s long URL: %s".formatted(prefixUrl + shortUrl,  longUrl));
-            return prefixUrl + shortUrl;
-        } catch (NoSuchAlgorithmException ex) {
-            log.warn("Failed to generate short URL %s"
-                    .formatted(prefixUrl + longUrl) + ": " + ex.getMessage());
-            throw new GeneratedUrlException("Failed to generate short URL %s"
-                    .formatted(prefixUrl + longUrl) + ": " + ex.getMessage());
-        }
+        String shortUrl = getDecoderShortUrl(longUrl);
+        urlRepository.save(new Url(longUrl, shortUrl, ZonedDateTime.now()));
+        log.info("Create Short URL: %s long URL: %s".formatted(prefixUrl + shortUrl,  longUrl));
+        return prefixUrl + shortUrl;
     }
 
     @Override
@@ -96,6 +88,19 @@ public class UrlService implements GeneratorService, RedirectService, FindLink {
             log.info("Short URL %s expired".formatted(url.getShortUrl()));
             throw new LifeTimeExpiredException("Short URL %s expired"
                     .formatted(prefixUrl + url.getShortUrl()));
+        }
+    }
+
+    private String getDecoderShortUrl(String longUrl) {
+        try {
+            MessageDigest messageDigest = MessageDigest.getInstance("SHA-256");
+            byte[] hash = messageDigest.digest(longUrl.getBytes(StandardCharsets.UTF_8));
+            return Base64.getUrlEncoder().withoutPadding().encodeToString(hash).substring(0, 8);
+        } catch (NoSuchAlgorithmException ex) {
+        log.warn("Failed to generate short URL %s"
+                .formatted(prefixUrl + longUrl) + ": " + ex.getMessage());
+        throw new GeneratedUrlException("Failed to generate short URL %s"
+                .formatted(prefixUrl + longUrl) + ": " + ex.getMessage());
         }
     }
 
