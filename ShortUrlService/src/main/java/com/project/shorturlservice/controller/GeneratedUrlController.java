@@ -14,6 +14,7 @@ import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.servers.Server;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
+import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
@@ -79,7 +80,7 @@ public class GeneratedUrlController {
 
     @PostMapping
     public ResponseEntity<GeneratedUrlResponse> generateShortUrl(@RequestBody @Valid GeneratedUrlRequest longUrl) {
-            return ResponseEntity.status(HttpStatus.CREATED)
+            return ResponseEntity.status(HttpStatus.OK)
                     .body(new GeneratedUrlResponse(generatorService.generateShortUrl(longUrl.longUrl())));
     }
 }

@@ -18,10 +18,7 @@ import lombok.RequiredArgsConstructor;
 import org.hibernate.validator.constraints.URL;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @OpenAPIDefinition(
         servers = {
@@ -85,64 +82,8 @@ public class FindLinkController {
                             }""")
                     }))
 
-    @GetMapping("/long")
-    public ResponseEntity<FindLongUrlResponse> getLongLink(@RequestParam("shortUrl")
-                                                           @URL(message = "Error, field shortUrl is not valid")
-                                                           @NotBlank(message = "Error, field shortUrl cannot is empty")
-                                                           String shortUrl) {
+    @GetMapping("/long/{shortUrl}")
+    public ResponseEntity<FindLongUrlResponse> getLongLink(@PathVariable("shortUrl") String shortUrl) {
         return ResponseEntity.ok(new FindLongUrlResponse(findLink.getLongUrl(shortUrl)));
-    }
-
-    @Operation(summary = "Найти короткую ссылку",
-            description = "Endpoint для поиска короткой ссылки",
-            tags = {"Поиск короткой ссылки"})
-    @RequestBody( content = @Content(
-            mediaType = MediaType.APPLICATION_JSON_VALUE,
-            schema = @Schema(type = "object",
-                    properties = {
-                            @StringToClassMapItem(key = "longUrl", value = String.class),
-                    }),
-            examples = {
-                    @ExampleObject(name = "exampleRequest",
-                            value = "{\"shortUrl\": \"http://localhost:8090/api/v1/Yic-yBB_\"}",
-                            description = "Запрос с корректными данными"),
-                    @ExampleObject(name = "ErrorRequest",
-                            value = "{\"shortUrl\": \"Какой-то текст\"}",
-                            description = "Запрос с некорректными данными"),
-            }))
-    @ApiResponse(responseCode = "200", description = "Успех",
-            content = @Content(mediaType = MediaType.APPLICATION_JSON_VALUE,
-            schema = @Schema(implementation = FindShortUrlResponse.class)))
-    @ApiResponse(responseCode = "400", description = "Ошибка в запросе",
-            content = @Content(mediaType = MediaType.APPLICATION_JSON_VALUE,
-                    schema = @Schema(implementation = ExceptionResponse.class),
-                    examples = {@ExampleObject(name = "ExampleResponse",
-                            value = """
-                                    {
-                                        "timestamp": "2024-04-26 03:21:39",
-                                        "path": "/api/v1/find/short",
-                                        "message": "Error, field longUrl is not valid",
-                                        "status": "BAD_REQUEST"
-                                    }""",
-                            description = "Переданная строка не является ссылкой")
-                    }))
-    @ApiResponse(responseCode = "404", description = "Ссылка не найдена",
-            content = @Content(mediaType = MediaType.APPLICATION_JSON_VALUE,
-                    schema = @Schema(implementation = ExceptionResponse.class),
-                    examples = {@ExampleObject(name = "ExampleResponse", value = """
-                            {
-                                "timestamp": "2024-04-26 10:33:32",
-                                "path": "/api/v1/find/short",
-                                "message": "Short URL http://localhost:8090/api/v1/ораорм not found",
-                                "status": "NOT_FOUND"
-                            }""")
-                    }))
-
-    @GetMapping("/short")
-    public ResponseEntity<FindShortUrlResponse> getShortLink(@RequestParam("longUrl")
-                                                            @URL(message = "Error, field longUrl is not valid")
-                                                            @NotBlank(message = "Error, field longUrl cannot is empty")
-                                                            String longUrl) {
-        return ResponseEntity.ok(new FindShortUrlResponse(findLink.getShortUrl(longUrl)));
     }
 }

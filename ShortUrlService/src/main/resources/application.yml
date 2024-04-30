@@ -1,10 +1,11 @@
 life:
   url:
-    minutes: 10
+    minutes: 1
 
 app:
   url:
-    prefix: http://localhost:8090/api/v1/
+    prefix: lb://ApiGateway/
+#    http://localhost:8090/api/v1/
 
 spring:
   application:

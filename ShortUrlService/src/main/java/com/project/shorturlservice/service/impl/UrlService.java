@@ -6,13 +6,10 @@ import com.project.shorturlservice.repository.UrlRepository;
 import com.project.shorturlservice.service.FindLink;
 import com.project.shorturlservice.service.GeneratorService;
 import com.project.shorturlservice.service.RedirectService;
-import com.project.shorturlservice.service.ScheduledRemoveExpired;
 import jakarta.servlet.http.HttpServletResponse;
-import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 
 import java.io.IOException;
@@ -21,13 +18,11 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.time.ZonedDateTime;
 import java.util.Base64;
-import java.util.List;
-import java.util.stream.Collectors;
 
 @Service
 @RequiredArgsConstructor
 @Slf4j
-public class UrlService implements GeneratorService, RedirectService, FindLink, ScheduledRemoveExpired {
+public class UrlService implements GeneratorService, RedirectService, FindLink {
 
     private final UrlRepository urlRepository;
 
@@ -38,19 +33,20 @@ public class UrlService implements GeneratorService, RedirectService, FindLink, 
     private String prefixUrl;
 
     @Override
-    public String getShortUrl(String longUrl) {
-        Url url = urlRepository.findByLongUrl(longUrl)
-                .orElseThrow(() -> new LinkNotFoundException("Short URL %s not found"
-                        .formatted( longUrl)));
-        log.info("Get Short URL: %s long URL: %s".formatted(url.getShortUrl(), longUrl));
-        return  prefixUrl + url.getShortUrl();
-    }
-
-    @Override
     public String generateShortUrl(String longUrl) {
+
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+
         if (urlRepository.existsByLongUrl(longUrl)) {
-            throw new ExistsLinkException("Long URL %s already exists. Use GET /find?longUrl=%s"
-                    .formatted(longUrl, longUrl));
+            Url url = urlRepository.findByLongUrl(longUrl).get();
+            url.setDateTime(ZonedDateTime.now());
+            urlRepository.save(url);
+            log.info("Update Short URL: %s long URL: %s".formatted(url.getShortUrl(), longUrl));
+            return prefixUrl + url.getShortUrl();
         }
 
         try {
@@ -58,7 +54,7 @@ public class UrlService implements GeneratorService, RedirectService, FindLink, 
             byte[] hash = messageDigest.digest(longUrl.getBytes(StandardCharsets.UTF_8));
             String shortUrl = Base64.getUrlEncoder().withoutPadding().encodeToString(hash).substring(0, 8);
             urlRepository.save(new Url(longUrl, shortUrl, ZonedDateTime.now()));
-            log.info("Create Short URL: %s long URL: %s".formatted(prefixUrl +shortUrl,  longUrl));
+            log.info("Create Short URL: %s long URL: %s".formatted(prefixUrl + shortUrl,  longUrl));
             return prefixUrl + shortUrl;
         } catch (NoSuchAlgorithmException ex) {
             log.warn("Failed to generate short URL %s"
@@ -69,47 +65,38 @@ public class UrlService implements GeneratorService, RedirectService, FindLink, 
     }
 
     @Override
-    public String getLongUrl(String shortUrl) {
-        Url url = urlRepository.findByShortUrl(shortUrl)
-                .orElseThrow(() -> new LinkNotFoundException("Short URL %s not found"
-                        .formatted(shortUrl)));
-        log.info("Get Long URL: %s short URL: %s".formatted(url.getLongUrl(), shortUrl));
-        return url.getLongUrl();
-    }
-
-    @Override
     public void redirectTo(String shortUrl, HttpServletResponse response) {
 
         Url url = urlRepository.findByShortUrl(shortUrl)
                 .orElseThrow(() -> new LinkNotFoundException("Short URL %s not found"
                         .formatted(prefixUrl + shortUrl)));
 
-        if (!(url.getDateTime().plusMinutes(lifeUrlMinutes).isAfter(ZonedDateTime.now()))) {
-            log.info("Short URL %s expired".formatted(shortUrl));
-            throw new LifeTimeExpiredException("Short URL %s expired"
-                    .formatted(prefixUrl + shortUrl));
-        }
+        isExpired(url);
 
         try {
             response.sendRedirect(url.getLongUrl());
         } catch (IOException e) {
             log.warn("Failed to redirect to %s".formatted(url.getLongUrl()) + ": " + e.getMessage());
-            throw new RedirectException("Failed to redirect to %s"
-                    .formatted(prefixUrl + url.getLongUrl()));
+            throw new RedirectException("Failed to redirect to %s".formatted(prefixUrl + url.getLongUrl()));
         }
     }
 
     @Override
-    @Scheduled(fixedRate = 60 * 60 * 1000)
-    @Transactional()
-    public void removeExpiredUrls() {
-        List<Url> expiredUrls = urlRepository
-                .findAllByDateTimeBefore(ZonedDateTime.now().minusMinutes(lifeUrlMinutes));
-        if (!expiredUrls.isEmpty()) {
-            log.info("Remove expired URLs: %s".formatted(expiredUrls.stream()
-                    .map(Url::getShortUrl)
-                    .collect(Collectors.toList())));
-            urlRepository.deleteAll(expiredUrls);
+    public String getLongUrl(String shortUrl) {
+        Url url = urlRepository.findByShortUrl(shortUrl)
+                .orElseThrow(() -> new LinkNotFoundException("Short URL %s not found"
+                        .formatted(shortUrl)));
+        isExpired(url);
+        log.info("Get Long URL: %s short URL: %s".formatted(url.getLongUrl(), shortUrl));
+        return url.getLongUrl();
+    }
+
+    private void isExpired(Url url) {
+        if (!(url.getDateTime().plusMinutes(lifeUrlMinutes).isAfter(ZonedDateTime.now()))) {
+            log.info("Short URL %s expired".formatted(url.getShortUrl()));
+            throw new LifeTimeExpiredException("Short URL %s expired"
+                    .formatted(prefixUrl + url.getShortUrl()));
         }
     }
+
 }
