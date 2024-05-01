@@ -42,17 +42,6 @@ public class FindLinkController {
                                             "longUrl": "https://www.gismeteo.ru/weather-novokuznetsk-4721/month/"
                                         }""")
             }))
-    @ApiResponse(responseCode = "400", description = "Ошибка в запросе",
-            content = @Content(mediaType = MediaType.APPLICATION_JSON_VALUE,
-                    schema = @Schema(implementation = ExceptionResponse.class),
-                    examples = {@ExampleObject(name = "ErrorResponse",
-                            value = """
-                                  {
-                                        "uri": "/api/v1/generate",
-                                        "message": "Error, field longUrl is not valid"
-                                    }""",
-                            description = "Переданная строка не является ссылкой")
-                    }))
     @ApiResponse(responseCode = "404", description = "Ссылка не найдена",
             content = @Content(mediaType = MediaType.APPLICATION_JSON_VALUE,
                     schema = @Schema(implementation = ExceptionResponse.class),

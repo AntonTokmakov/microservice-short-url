@@ -40,7 +40,7 @@ public class GlobalExceptionHandler {
     @ExceptionHandler(RedirectException.class)
     public ResponseEntity<ExceptionResponse> handleRedirectException(HttpServletRequest request,
                                                                      Exception exception) {
-        return getResponse(request, exception, HttpStatus.GONE);
+        return getResponse(request, exception, HttpStatus.BAD_GATEWAY);
     }
 
     @ExceptionHandler(ExistsLinkException.class)

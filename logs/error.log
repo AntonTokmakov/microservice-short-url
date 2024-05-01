@@ -1,0 +1,1293 @@
+2024-04-30 21:15:49 - WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-30 21:15:49 - INFO - LiveReload server is running on port 35729
+2024-04-30 21:15:50 - INFO - Cannot determine local hostname
+2024-04-30 21:15:51 - INFO - Cannot determine local hostname
+2024-04-30 21:15:51 - INFO - Eureka HTTP Client uses RestTemplate.
+2024-04-30 21:15:51 - WARN - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-04-30 21:15:51 - INFO - Tomcat started on port 58102 (http) with context path '/api/v1'
+2024-04-30 21:15:51 - INFO - Updating port to 58102
+2024-04-30 21:15:51 - INFO - Setting initial instance status as: STARTING
+2024-04-30 21:15:51 - INFO - Initializing Eureka in region us-east-1
+2024-04-30 21:15:51 - INFO - Resolving eureka endpoints via configuration
+2024-04-30 21:15:51 - INFO - Disable delta property : false
+2024-04-30 21:15:51 - INFO - Single vip registry refresh property : null
+2024-04-30 21:15:51 - INFO - Force full registry fetch : false
+2024-04-30 21:15:51 - INFO - Application is null : false
+2024-04-30 21:15:51 - INFO - Registered Applications size is zero : true
+2024-04-30 21:15:51 - INFO - Application version is -1: true
+2024-04-30 21:15:51 - INFO - Getting all instance registry info from the eureka server
+2024-04-30 21:15:52 - INFO - The response status is 200
+2024-04-30 21:15:52 - INFO - Starting heartbeat executor: renew interval is: 30
+2024-04-30 21:15:52 - INFO - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-04-30 21:15:52 - INFO - Discovery Client initialized at timestamp 1714486552108 with initial instances count: 16
+2024-04-30 21:15:52 - INFO - Registering application SHORTURLSERVICE with eureka with status UP
+2024-04-30 21:15:52 - INFO - Saw local status change event StatusChangeEvent [timestamp=1714486552110, current=UP, previous=STARTING]
+2024-04-30 21:15:52 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:98aa5f44-17ae-4691-a8b2-d6780e973e4e: registering service...
+2024-04-30 21:15:52 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:98aa5f44-17ae-4691-a8b2-d6780e973e4e - registration status: 204
+2024-04-30 21:15:53 - INFO - Cannot determine local hostname
+2024-04-30 21:15:53 - INFO - Started ShortUrlServiceApplication in 8.744 seconds (process running for 9.278)
+2024-04-30 21:16:46 - INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-30 21:16:46 - INFO - Initializing Servlet 'dispatcherServlet'
+2024-04-30 21:16:46 - INFO - Completed initialization in 0 ms
+2024-04-30 21:16:46 - INFO - Update Short URL: Mqmp91Rp long URL: https://do.sibsiu.ru/day/login/index.php
+2024-04-30 21:20:51 - INFO - Resolving eureka endpoints via configuration
+2024-04-30 21:24:16 - INFO - Unregistering application SHORTURLSERVICE with eureka with status DOWN
+2024-04-30 21:24:16 - INFO - Saw local status change event StatusChangeEvent [timestamp=1714487056630, current=DOWN, previous=UP]
+2024-04-30 21:24:16 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:98aa5f44-17ae-4691-a8b2-d6780e973e4e: registering service...
+2024-04-30 21:24:16 - INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-30 21:24:16 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:98aa5f44-17ae-4691-a8b2-d6780e973e4e - registration status: 204
+2024-04-30 21:24:16 - INFO - HikariPool-1 - Shutdown initiated...
+2024-04-30 21:24:16 - INFO - HikariPool-1 - Shutdown completed.
+2024-04-30 21:24:16 - INFO - Shutting down DiscoveryClient ...
+2024-04-30 21:24:19 - INFO - Completed shut down of DiscoveryClient
+2024-04-30 21:24:27 - WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-30 21:24:27 - INFO - LiveReload server is running on port 35729
+2024-04-30 21:24:28 - INFO - Cannot determine local hostname
+2024-04-30 21:24:29 - INFO - Cannot determine local hostname
+2024-04-30 21:24:29 - INFO - Eureka HTTP Client uses RestTemplate.
+2024-04-30 21:24:29 - WARN - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-04-30 21:24:29 - INFO - Tomcat started on port 58564 (http) with context path '/api/v1'
+2024-04-30 21:24:29 - INFO - Updating port to 58564
+2024-04-30 21:24:29 - INFO - Setting initial instance status as: STARTING
+2024-04-30 21:24:29 - INFO - Initializing Eureka in region us-east-1
+2024-04-30 21:24:29 - INFO - Resolving eureka endpoints via configuration
+2024-04-30 21:24:29 - INFO - Disable delta property : false
+2024-04-30 21:24:29 - INFO - Single vip registry refresh property : null
+2024-04-30 21:24:29 - INFO - Force full registry fetch : false
+2024-04-30 21:24:29 - INFO - Application is null : false
+2024-04-30 21:24:29 - INFO - Registered Applications size is zero : true
+2024-04-30 21:24:29 - INFO - Application version is -1: true
+2024-04-30 21:24:29 - INFO - Getting all instance registry info from the eureka server
+2024-04-30 21:24:29 - INFO - The response status is 200
+2024-04-30 21:24:29 - INFO - Starting heartbeat executor: renew interval is: 30
+2024-04-30 21:24:29 - INFO - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-04-30 21:24:29 - INFO - Discovery Client initialized at timestamp 1714487069988 with initial instances count: 17
+2024-04-30 21:24:29 - INFO - Registering application SHORTURLSERVICE with eureka with status UP
+2024-04-30 21:24:29 - INFO - Saw local status change event StatusChangeEvent [timestamp=1714487069990, current=UP, previous=STARTING]
+2024-04-30 21:24:29 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:95327dbd-e915-4db3-a538-421a71993253: registering service...
+2024-04-30 21:24:30 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:95327dbd-e915-4db3-a538-421a71993253 - registration status: 204
+2024-04-30 21:24:31 - INFO - Cannot determine local hostname
+2024-04-30 21:24:31 - INFO - Started ShortUrlServiceApplication in 8.513 seconds (process running for 9.001)
+2024-04-30 21:25:04 - INFO - Unregistering application SHORTURLSERVICE with eureka with status DOWN
+2024-04-30 21:25:04 - INFO - Saw local status change event StatusChangeEvent [timestamp=1714487104019, current=DOWN, previous=UP]
+2024-04-30 21:25:04 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:95327dbd-e915-4db3-a538-421a71993253: registering service...
+2024-04-30 21:25:04 - INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-30 21:25:04 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:95327dbd-e915-4db3-a538-421a71993253 - registration status: 204
+2024-04-30 21:25:04 - INFO - HikariPool-1 - Shutdown initiated...
+2024-04-30 21:25:04 - INFO - HikariPool-1 - Shutdown completed.
+2024-04-30 21:25:04 - INFO - Shutting down DiscoveryClient ...
+2024-04-30 21:25:07 - INFO - Completed shut down of DiscoveryClient
+2024-04-30 21:25:15 - WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-30 21:25:16 - INFO - LiveReload server is running on port 35729
+2024-04-30 21:25:17 - INFO - Cannot determine local hostname
+2024-04-30 21:25:18 - INFO - Cannot determine local hostname
+2024-04-30 21:25:18 - INFO - Eureka HTTP Client uses RestTemplate.
+2024-04-30 21:25:18 - WARN - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-04-30 21:25:18 - INFO - Tomcat started on port 58629 (http) with context path '/api/v1'
+2024-04-30 21:25:18 - INFO - Updating port to 58629
+2024-04-30 21:25:18 - INFO - Setting initial instance status as: STARTING
+2024-04-30 21:25:18 - INFO - Initializing Eureka in region us-east-1
+2024-04-30 21:25:18 - INFO - Resolving eureka endpoints via configuration
+2024-04-30 21:25:18 - INFO - Disable delta property : false
+2024-04-30 21:25:18 - INFO - Single vip registry refresh property : null
+2024-04-30 21:25:18 - INFO - Force full registry fetch : false
+2024-04-30 21:25:18 - INFO - Application is null : false
+2024-04-30 21:25:18 - INFO - Registered Applications size is zero : true
+2024-04-30 21:25:18 - INFO - Application version is -1: true
+2024-04-30 21:25:18 - INFO - Getting all instance registry info from the eureka server
+2024-04-30 21:25:18 - INFO - The response status is 200
+2024-04-30 21:25:18 - INFO - Starting heartbeat executor: renew interval is: 30
+2024-04-30 21:25:18 - INFO - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-04-30 21:25:18 - INFO - Discovery Client initialized at timestamp 1714487118616 with initial instances count: 18
+2024-04-30 21:25:18 - INFO - Registering application SHORTURLSERVICE with eureka with status UP
+2024-04-30 21:25:18 - INFO - Saw local status change event StatusChangeEvent [timestamp=1714487118618, current=UP, previous=STARTING]
+2024-04-30 21:25:18 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:9f257193-d89d-481b-98ad-00d057660323: registering service...
+2024-04-30 21:25:18 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:9f257193-d89d-481b-98ad-00d057660323 - registration status: 204
+2024-04-30 21:25:19 - INFO - Cannot determine local hostname
+2024-04-30 21:25:19 - INFO - Started ShortUrlServiceApplication in 10.602 seconds (process running for 11.297)
+2024-04-30 21:27:13 - INFO - Unregistering application SHORTURLSERVICE with eureka with status DOWN
+2024-04-30 21:27:13 - INFO - Saw local status change event StatusChangeEvent [timestamp=1714487233008, current=DOWN, previous=UP]
+2024-04-30 21:27:13 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:9f257193-d89d-481b-98ad-00d057660323: registering service...
+2024-04-30 21:27:13 - INFO - Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/} exception=I/O error on POST request for "http://localhost:8761/eureka/apps/SHORTURLSERVICE": Socket closed stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:8761/eureka/apps/SHORTURLSERVICE": Socket closed
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:915)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:895)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:790)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:672)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.register(RestTemplateEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:91)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:820)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endRead(NioSocketImpl.java:243)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:323)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1099)
+	at org.apache.hc.core5.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:149)
+	at org.apache.hc.core5.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:280)
+	at org.apache.hc.core5.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:247)
+	at org.apache.hc.core5.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:54)
+	at org.apache.hc.core5.http.impl.io.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:299)
+	at org.apache.hc.core5.http.impl.io.HttpRequestExecutor.execute(HttpRequestExecutor.java:175)
+	at org.apache.hc.core5.http.impl.io.HttpRequestExecutor.execute(HttpRequestExecutor.java:218)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager$InternalConnectionEndpoint.execute(PoolingHttpClientConnectionManager.java:712)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.execute(InternalExecRuntime.java:216)
+	at org.apache.hc.client5.http.impl.classic.MainClientExec.execute(MainClientExec.java:116)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:188)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:95)
+	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:70)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:112)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateTransportClientFactory.lambda$restTemplate$0(RestTemplateTransportClientFactory.java:143)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:88)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:72)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:889)
+	... 21 more
+
+2024-04-30 21:27:13 - WARN - Request execution failed with message: I/O error on POST request for "http://localhost:8761/eureka/apps/SHORTURLSERVICE": Socket closed
+2024-04-30 21:27:13 - INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-30 21:27:13 - INFO - HikariPool-1 - Shutdown initiated...
+2024-04-30 21:27:13 - INFO - HikariPool-1 - Shutdown completed.
+2024-04-30 21:27:13 - INFO - Shutting down DiscoveryClient ...
+2024-04-30 21:27:13 - INFO - Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=Connection pool shut down stacktrace=java.lang.IllegalStateException: Connection pool shut down
+	at org.apache.hc.core5.util.Asserts.check(Asserts.java:38)
+	at org.apache.hc.core5.pool.StrictConnPool.lease(StrictConnPool.java:176)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.lease(PoolingHttpClientConnectionManager.java:298)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.acquireEndpoint(InternalExecRuntime.java:103)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:125)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:95)
+	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:70)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:112)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateTransportClientFactory.lambda$restTemplate$0(RestTemplateTransportClientFactory.java:143)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:88)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:72)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:889)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:790)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:672)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.register(RestTemplateEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:820)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+2024-04-30 21:27:13 - WARN - Request execution failed with message: Connection pool shut down
+2024-04-30 21:27:13 - WARN - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:9f257193-d89d-481b-98ad-00d057660323 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:820) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101) ~[eureka-client-2.0.2.jar:2.0.2]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+2024-04-30 21:27:13 - WARN - There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:820) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101) ~[eureka-client-2.0.2.jar:2.0.2]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+2024-04-30 21:27:13 - INFO - Completed shut down of DiscoveryClient
+2024-04-30 21:27:23 - WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-30 21:27:23 - INFO - LiveReload server is running on port 35729
+2024-04-30 21:27:24 - INFO - Cannot determine local hostname
+2024-04-30 21:27:25 - INFO - Cannot determine local hostname
+2024-04-30 21:27:25 - INFO - Eureka HTTP Client uses RestTemplate.
+2024-04-30 21:27:25 - WARN - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-04-30 21:27:25 - INFO - Tomcat started on port 58771 (http) with context path '/api/v1'
+2024-04-30 21:27:25 - INFO - Updating port to 58771
+2024-04-30 21:27:25 - INFO - Setting initial instance status as: STARTING
+2024-04-30 21:27:25 - INFO - Initializing Eureka in region us-east-1
+2024-04-30 21:27:25 - INFO - Resolving eureka endpoints via configuration
+2024-04-30 21:27:25 - INFO - Disable delta property : false
+2024-04-30 21:27:25 - INFO - Single vip registry refresh property : null
+2024-04-30 21:27:25 - INFO - Force full registry fetch : false
+2024-04-30 21:27:25 - INFO - Application is null : false
+2024-04-30 21:27:25 - INFO - Registered Applications size is zero : true
+2024-04-30 21:27:25 - INFO - Application version is -1: true
+2024-04-30 21:27:25 - INFO - Getting all instance registry info from the eureka server
+2024-04-30 21:27:25 - INFO - The response status is 200
+2024-04-30 21:27:25 - INFO - Starting heartbeat executor: renew interval is: 30
+2024-04-30 21:27:25 - INFO - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-04-30 21:27:25 - INFO - Discovery Client initialized at timestamp 1714487245824 with initial instances count: 19
+2024-04-30 21:27:25 - INFO - Registering application SHORTURLSERVICE with eureka with status UP
+2024-04-30 21:27:25 - INFO - Saw local status change event StatusChangeEvent [timestamp=1714487245826, current=UP, previous=STARTING]
+2024-04-30 21:27:25 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:2f814be6-270b-4eaf-9afd-3b0e3c09a140: registering service...
+2024-04-30 21:27:25 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:2f814be6-270b-4eaf-9afd-3b0e3c09a140 - registration status: 204
+2024-04-30 21:27:26 - INFO - Cannot determine local hostname
+2024-04-30 21:27:26 - INFO - Started ShortUrlServiceApplication in 10.946 seconds (process running for 11.486)
+2024-04-30 21:32:25 - INFO - Resolving eureka endpoints via configuration
+2024-04-30 21:33:55 - INFO - Unregistering application SHORTURLSERVICE with eureka with status DOWN
+2024-04-30 21:33:55 - INFO - Saw local status change event StatusChangeEvent [timestamp=1714487635082, current=DOWN, previous=UP]
+2024-04-30 21:33:55 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:2f814be6-270b-4eaf-9afd-3b0e3c09a140: registering service...
+2024-04-30 21:33:55 - INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-30 21:33:55 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:2f814be6-270b-4eaf-9afd-3b0e3c09a140 - registration status: 204
+2024-04-30 21:33:55 - INFO - HikariPool-1 - Shutdown initiated...
+2024-04-30 21:33:55 - INFO - HikariPool-1 - Shutdown completed.
+2024-04-30 21:33:55 - INFO - Shutting down DiscoveryClient ...
+2024-04-30 21:33:56 - INFO - Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/} exception=Connection pool shut down stacktrace=java.lang.IllegalStateException: Connection pool shut down
+	at org.apache.hc.core5.util.Asserts.check(Asserts.java:38)
+	at org.apache.hc.core5.pool.StrictConnPool.lease(StrictConnPool.java:176)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.lease(PoolingHttpClientConnectionManager.java:298)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.acquireEndpoint(InternalExecRuntime.java:103)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:125)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:95)
+	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:70)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:112)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateTransportClientFactory.lambda$restTemplate$0(RestTemplateTransportClientFactory.java:143)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:88)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:72)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:889)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:790)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:672)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.sendHeartBeat(RestTemplateEurekaHttpClient.java:99)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:91)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:837)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1401)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+2024-04-30 21:33:56 - WARN - Request execution failed with message: Connection pool shut down
+2024-04-30 21:33:56 - INFO - Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/} exception=Connection pool shut down stacktrace=java.lang.IllegalStateException: Connection pool shut down
+	at org.apache.hc.core5.util.Asserts.check(Asserts.java:38)
+	at org.apache.hc.core5.pool.StrictConnPool.lease(StrictConnPool.java:176)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.lease(PoolingHttpClientConnectionManager.java:298)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.acquireEndpoint(InternalExecRuntime.java:103)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:125)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:95)
+	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:70)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:112)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateTransportClientFactory.lambda$restTemplate$0(RestTemplateTransportClientFactory.java:143)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:88)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:72)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:889)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:790)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:672)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.getApplicationsInternal(RestTemplateEurekaHttpClient.java:145)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.getDelta(RestTemplateEurekaHttpClient.java:155)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:91)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1079)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:960)
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1475)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1442)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+2024-04-30 21:33:56 - WARN - Request execution failed with message: Connection pool shut down
+2024-04-30 21:33:56 - INFO - Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=Connection pool shut down stacktrace=java.lang.IllegalStateException: Connection pool shut down
+	at org.apache.hc.core5.util.Asserts.check(Asserts.java:38)
+	at org.apache.hc.core5.pool.StrictConnPool.lease(StrictConnPool.java:176)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.lease(PoolingHttpClientConnectionManager.java:298)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.acquireEndpoint(InternalExecRuntime.java:103)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:125)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:95)
+	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:70)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:112)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateTransportClientFactory.lambda$restTemplate$0(RestTemplateTransportClientFactory.java:143)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:88)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:72)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:889)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:790)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:672)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.sendHeartBeat(RestTemplateEurekaHttpClient.java:99)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:837)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1401)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+2024-04-30 21:33:56 - WARN - Request execution failed with message: Connection pool shut down
+2024-04-30 21:33:56 - ERROR - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:2f814be6-270b-4eaf-9afd-3b0e3c09a140 - was unable to send heartbeat!
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:837) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1401) ~[eureka-client-2.0.2.jar:2.0.2]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+2024-04-30 21:33:56 - INFO - Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=Connection pool shut down stacktrace=java.lang.IllegalStateException: Connection pool shut down
+	at org.apache.hc.core5.util.Asserts.check(Asserts.java:38)
+	at org.apache.hc.core5.pool.StrictConnPool.lease(StrictConnPool.java:176)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.lease(PoolingHttpClientConnectionManager.java:298)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.acquireEndpoint(InternalExecRuntime.java:103)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:125)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:95)
+	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:70)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:112)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateTransportClientFactory.lambda$restTemplate$0(RestTemplateTransportClientFactory.java:143)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:88)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:72)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:889)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:790)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:672)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.getApplicationsInternal(RestTemplateEurekaHttpClient.java:145)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.getDelta(RestTemplateEurekaHttpClient.java:155)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1079)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:960)
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1475)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1442)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+2024-04-30 21:33:56 - WARN - Request execution failed with message: Connection pool shut down
+2024-04-30 21:33:56 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:2f814be6-270b-4eaf-9afd-3b0e3c09a140 - was unable to refresh its cache! This periodic background refresh will be retried in 30 seconds. status = Cannot execute request on any known server stacktrace = com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1079)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:960)
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1475)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1442)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+2024-04-30 21:33:58 - INFO - Completed shut down of DiscoveryClient
+2024-04-30 21:34:07 - WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-30 21:34:08 - INFO - LiveReload server is running on port 35729
+2024-04-30 21:34:09 - INFO - Cannot determine local hostname
+2024-04-30 21:34:10 - INFO - Cannot determine local hostname
+2024-04-30 21:34:10 - INFO - Eureka HTTP Client uses RestTemplate.
+2024-04-30 21:34:10 - WARN - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-04-30 21:34:10 - INFO - Tomcat started on port 59185 (http) with context path '/api/v1'
+2024-04-30 21:34:10 - INFO - Updating port to 59185
+2024-04-30 21:34:10 - INFO - Setting initial instance status as: STARTING
+2024-04-30 21:34:10 - INFO - Initializing Eureka in region us-east-1
+2024-04-30 21:34:10 - INFO - Resolving eureka endpoints via configuration
+2024-04-30 21:34:10 - INFO - Disable delta property : false
+2024-04-30 21:34:10 - INFO - Single vip registry refresh property : null
+2024-04-30 21:34:10 - INFO - Force full registry fetch : false
+2024-04-30 21:34:10 - INFO - Application is null : false
+2024-04-30 21:34:10 - INFO - Registered Applications size is zero : true
+2024-04-30 21:34:10 - INFO - Application version is -1: true
+2024-04-30 21:34:10 - INFO - Getting all instance registry info from the eureka server
+2024-04-30 21:34:10 - INFO - The response status is 200
+2024-04-30 21:34:10 - INFO - Starting heartbeat executor: renew interval is: 30
+2024-04-30 21:34:10 - INFO - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-04-30 21:34:10 - INFO - Discovery Client initialized at timestamp 1714487650667 with initial instances count: 20
+2024-04-30 21:34:10 - INFO - Registering application SHORTURLSERVICE with eureka with status UP
+2024-04-30 21:34:10 - INFO - Saw local status change event StatusChangeEvent [timestamp=1714487650670, current=UP, previous=STARTING]
+2024-04-30 21:34:10 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:90175cde-0dd8-4361-b10c-cf2266df2f44: registering service...
+2024-04-30 21:34:10 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:90175cde-0dd8-4361-b10c-cf2266df2f44 - registration status: 204
+2024-04-30 21:34:11 - INFO - Cannot determine local hostname
+2024-04-30 21:34:11 - INFO - Started ShortUrlServiceApplication in 10.81 seconds (process running for 11.316)
+2024-04-30 21:36:54 - INFO - Unregistering application SHORTURLSERVICE with eureka with status DOWN
+2024-04-30 21:36:54 - INFO - Saw local status change event StatusChangeEvent [timestamp=1714487814899, current=DOWN, previous=UP]
+2024-04-30 21:36:54 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:90175cde-0dd8-4361-b10c-cf2266df2f44: registering service...
+2024-04-30 21:36:54 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:90175cde-0dd8-4361-b10c-cf2266df2f44 - registration status: 204
+2024-04-30 21:36:54 - INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-30 21:36:54 - INFO - HikariPool-1 - Shutdown initiated...
+2024-04-30 21:36:54 - INFO - HikariPool-1 - Shutdown completed.
+2024-04-30 21:36:54 - INFO - Shutting down DiscoveryClient ...
+2024-04-30 21:36:57 - INFO - Completed shut down of DiscoveryClient
+2024-04-30 21:37:05 - WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-30 21:37:06 - INFO - LiveReload server is running on port 35729
+2024-04-30 21:37:07 - INFO - Cannot determine local hostname
+2024-04-30 21:37:08 - INFO - Cannot determine local hostname
+2024-04-30 21:37:08 - INFO - Eureka HTTP Client uses RestTemplate.
+2024-04-30 21:37:08 - WARN - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-04-30 21:37:08 - INFO - Tomcat started on port 59633 (http) with context path '/api/v1'
+2024-04-30 21:37:08 - INFO - Updating port to 59633
+2024-04-30 21:37:08 - INFO - Setting initial instance status as: STARTING
+2024-04-30 21:37:08 - INFO - Initializing Eureka in region us-east-1
+2024-04-30 21:37:08 - INFO - Resolving eureka endpoints via configuration
+2024-04-30 21:37:08 - INFO - Disable delta property : false
+2024-04-30 21:37:08 - INFO - Single vip registry refresh property : null
+2024-04-30 21:37:08 - INFO - Force full registry fetch : false
+2024-04-30 21:37:08 - INFO - Application is null : false
+2024-04-30 21:37:08 - INFO - Registered Applications size is zero : true
+2024-04-30 21:37:08 - INFO - Application version is -1: true
+2024-04-30 21:37:08 - INFO - Getting all instance registry info from the eureka server
+2024-04-30 21:37:08 - INFO - The response status is 200
+2024-04-30 21:37:08 - INFO - Starting heartbeat executor: renew interval is: 30
+2024-04-30 21:37:08 - INFO - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-04-30 21:37:08 - INFO - Discovery Client initialized at timestamp 1714487828475 with initial instances count: 21
+2024-04-30 21:37:08 - INFO - Registering application SHORTURLSERVICE with eureka with status UP
+2024-04-30 21:37:08 - INFO - Saw local status change event StatusChangeEvent [timestamp=1714487828477, current=UP, previous=STARTING]
+2024-04-30 21:37:08 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:bc0fd3ef-a158-4b81-bcbd-d170e4fefc8b: registering service...
+2024-04-30 21:37:08 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:bc0fd3ef-a158-4b81-bcbd-d170e4fefc8b - registration status: 204
+2024-04-30 21:37:09 - INFO - Cannot determine local hostname
+2024-04-30 21:37:09 - INFO - Started ShortUrlServiceApplication in 8.635 seconds (process running for 9.134)
+2024-04-30 21:39:00 - INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-30 21:39:00 - INFO - Initializing Servlet 'dispatcherServlet'
+2024-04-30 21:39:00 - INFO - Completed initialization in 0 ms
+2024-04-30 21:39:00 - INFO - Update Short URL: Mqmp91Rp long URL: https://do.sibsiu.ru/day/login/index.php
+2024-04-30 21:39:41 - INFO - Unregistering application SHORTURLSERVICE with eureka with status DOWN
+2024-04-30 21:39:41 - INFO - Saw local status change event StatusChangeEvent [timestamp=1714487981889, current=DOWN, previous=UP]
+2024-04-30 21:39:41 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:bc0fd3ef-a158-4b81-bcbd-d170e4fefc8b: registering service...
+2024-04-30 21:39:41 - INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-30 21:39:41 - INFO - Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/} exception=I/O error on POST request for "http://localhost:8761/eureka/apps/SHORTURLSERVICE": Socket closed stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:8761/eureka/apps/SHORTURLSERVICE": Socket closed
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:915)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:895)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:790)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:672)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.register(RestTemplateEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:91)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:820)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.endRead(NioSocketImpl.java:243)
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:323)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1099)
+	at org.apache.hc.core5.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:149)
+	at org.apache.hc.core5.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:280)
+	at org.apache.hc.core5.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:247)
+	at org.apache.hc.core5.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:54)
+	at org.apache.hc.core5.http.impl.io.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:299)
+	at org.apache.hc.core5.http.impl.io.HttpRequestExecutor.execute(HttpRequestExecutor.java:175)
+	at org.apache.hc.core5.http.impl.io.HttpRequestExecutor.execute(HttpRequestExecutor.java:218)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager$InternalConnectionEndpoint.execute(PoolingHttpClientConnectionManager.java:712)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.execute(InternalExecRuntime.java:216)
+	at org.apache.hc.client5.http.impl.classic.MainClientExec.execute(MainClientExec.java:116)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:188)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:95)
+	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:70)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:112)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateTransportClientFactory.lambda$restTemplate$0(RestTemplateTransportClientFactory.java:143)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:88)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:72)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:889)
+	... 21 more
+
+2024-04-30 21:39:41 - WARN - Request execution failed with message: I/O error on POST request for "http://localhost:8761/eureka/apps/SHORTURLSERVICE": Socket closed
+2024-04-30 21:39:41 - INFO - HikariPool-1 - Shutdown initiated...
+2024-04-30 21:39:41 - INFO - HikariPool-1 - Shutdown completed.
+2024-04-30 21:39:41 - INFO - Shutting down DiscoveryClient ...
+2024-04-30 21:39:41 - INFO - Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=Connection pool shut down stacktrace=java.lang.IllegalStateException: Connection pool shut down
+	at org.apache.hc.core5.util.Asserts.check(Asserts.java:38)
+	at org.apache.hc.core5.pool.StrictConnPool.lease(StrictConnPool.java:176)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.lease(PoolingHttpClientConnectionManager.java:298)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.acquireEndpoint(InternalExecRuntime.java:103)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:125)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:152)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:95)
+	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:70)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:112)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateTransportClientFactory.lambda$restTemplate$0(RestTemplateTransportClientFactory.java:143)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:88)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:72)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:889)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:790)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:672)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.register(RestTemplateEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:820)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+2024-04-30 21:39:41 - WARN - Request execution failed with message: Connection pool shut down
+2024-04-30 21:39:41 - WARN - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:bc0fd3ef-a158-4b81-bcbd-d170e4fefc8b - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:820) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101) ~[eureka-client-2.0.2.jar:2.0.2]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+2024-04-30 21:39:41 - WARN - There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:820) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121) ~[eureka-client-2.0.2.jar:2.0.2]
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101) ~[eureka-client-2.0.2.jar:2.0.2]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+2024-04-30 21:39:41 - INFO - Completed shut down of DiscoveryClient
+2024-04-30 21:39:48 - WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-30 21:39:49 - INFO - LiveReload server is running on port 35729
+2024-04-30 21:39:50 - INFO - Cannot determine local hostname
+2024-04-30 21:39:51 - INFO - Cannot determine local hostname
+2024-04-30 21:39:51 - INFO - Eureka HTTP Client uses RestTemplate.
+2024-04-30 21:39:51 - WARN - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-04-30 21:39:51 - INFO - Tomcat started on port 59817 (http) with context path '/api/v1'
+2024-04-30 21:39:51 - INFO - Updating port to 59817
+2024-04-30 21:39:51 - INFO - Setting initial instance status as: STARTING
+2024-04-30 21:39:51 - INFO - Initializing Eureka in region us-east-1
+2024-04-30 21:39:51 - INFO - Resolving eureka endpoints via configuration
+2024-04-30 21:39:51 - INFO - Disable delta property : false
+2024-04-30 21:39:51 - INFO - Single vip registry refresh property : null
+2024-04-30 21:39:51 - INFO - Force full registry fetch : false
+2024-04-30 21:39:51 - INFO - Application is null : false
+2024-04-30 21:39:51 - INFO - Registered Applications size is zero : true
+2024-04-30 21:39:51 - INFO - Application version is -1: true
+2024-04-30 21:39:51 - INFO - Getting all instance registry info from the eureka server
+2024-04-30 21:39:51 - INFO - The response status is 200
+2024-04-30 21:39:51 - INFO - Starting heartbeat executor: renew interval is: 30
+2024-04-30 21:39:51 - INFO - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-04-30 21:39:51 - INFO - Discovery Client initialized at timestamp 1714487991509 with initial instances count: 22
+2024-04-30 21:39:51 - INFO - Registering application SHORTURLSERVICE with eureka with status UP
+2024-04-30 21:39:51 - INFO - Saw local status change event StatusChangeEvent [timestamp=1714487991512, current=UP, previous=STARTING]
+2024-04-30 21:39:51 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:16ca2adf-11d3-46a2-842c-50a0909ebbbb: registering service...
+2024-04-30 21:39:51 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:16ca2adf-11d3-46a2-842c-50a0909ebbbb - registration status: 204
+2024-04-30 21:39:52 - INFO - Cannot determine local hostname
+2024-04-30 21:39:52 - INFO - Started ShortUrlServiceApplication in 8.553 seconds (process running for 9.063)
+2024-04-30 21:42:40 - INFO - Unregistering application SHORTURLSERVICE with eureka with status DOWN
+2024-04-30 21:42:40 - INFO - Saw local status change event StatusChangeEvent [timestamp=1714488160057, current=DOWN, previous=UP]
+2024-04-30 21:42:40 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:16ca2adf-11d3-46a2-842c-50a0909ebbbb: registering service...
+2024-04-30 21:42:40 - INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-30 21:42:40 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:16ca2adf-11d3-46a2-842c-50a0909ebbbb - registration status: 204
+2024-04-30 21:42:40 - INFO - HikariPool-1 - Shutdown initiated...
+2024-04-30 21:42:40 - INFO - HikariPool-1 - Shutdown completed.
+2024-04-30 21:42:40 - INFO - Shutting down DiscoveryClient ...
+2024-04-30 21:42:43 - INFO - Completed shut down of DiscoveryClient
+2024-04-30 21:43:53 - WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-30 21:43:53 - INFO - LiveReload server is running on port 35729
+2024-04-30 21:43:54 - INFO - Cannot determine local hostname
+2024-04-30 21:43:55 - INFO - Cannot determine local hostname
+2024-04-30 21:43:55 - INFO - Eureka HTTP Client uses RestTemplate.
+2024-04-30 21:43:55 - WARN - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-04-30 21:43:55 - INFO - Tomcat started on port 60083 (http) with context path '/api/v1'
+2024-04-30 21:43:55 - INFO - Updating port to 60083
+2024-04-30 21:43:55 - INFO - Setting initial instance status as: STARTING
+2024-04-30 21:43:55 - INFO - Initializing Eureka in region us-east-1
+2024-04-30 21:43:55 - INFO - Resolving eureka endpoints via configuration
+2024-04-30 21:43:55 - INFO - Disable delta property : false
+2024-04-30 21:43:55 - INFO - Single vip registry refresh property : null
+2024-04-30 21:43:55 - INFO - Force full registry fetch : false
+2024-04-30 21:43:55 - INFO - Application is null : false
+2024-04-30 21:43:55 - INFO - Registered Applications size is zero : true
+2024-04-30 21:43:55 - INFO - Application version is -1: true
+2024-04-30 21:43:55 - INFO - Getting all instance registry info from the eureka server
+2024-04-30 21:43:55 - INFO - The response status is 200
+2024-04-30 21:43:55 - INFO - Starting heartbeat executor: renew interval is: 30
+2024-04-30 21:43:55 - INFO - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-04-30 21:43:55 - INFO - Discovery Client initialized at timestamp 1714488235713 with initial instances count: 23
+2024-04-30 21:43:55 - INFO - Registering application SHORTURLSERVICE with eureka with status UP
+2024-04-30 21:43:55 - INFO - Saw local status change event StatusChangeEvent [timestamp=1714488235715, current=UP, previous=STARTING]
+2024-04-30 21:43:55 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:eab45c9c-b0e2-46d9-a40b-626b60b1b80f: registering service...
+2024-04-30 21:43:55 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:eab45c9c-b0e2-46d9-a40b-626b60b1b80f - registration status: 204
+2024-04-30 21:43:56 - INFO - Cannot determine local hostname
+2024-04-30 21:43:56 - INFO - Started ShortUrlServiceApplication in 8.575 seconds (process running for 9.057)
+2024-04-30 21:46:01 - INFO - Unregistering application SHORTURLSERVICE with eureka with status DOWN
+2024-04-30 21:46:01 - INFO - Saw local status change event StatusChangeEvent [timestamp=1714488361810, current=DOWN, previous=UP]
+2024-04-30 21:46:01 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:eab45c9c-b0e2-46d9-a40b-626b60b1b80f: registering service...
+2024-04-30 21:46:01 - INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-30 21:46:01 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:eab45c9c-b0e2-46d9-a40b-626b60b1b80f - registration status: 204
+2024-04-30 21:46:01 - INFO - HikariPool-1 - Shutdown initiated...
+2024-04-30 21:46:01 - INFO - HikariPool-1 - Shutdown completed.
+2024-04-30 21:46:01 - INFO - Shutting down DiscoveryClient ...
+2024-04-30 21:46:04 - INFO - Completed shut down of DiscoveryClient
+2024-04-30 21:46:13 - WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-30 21:46:13 - INFO - LiveReload server is running on port 35729
+2024-04-30 21:46:14 - INFO - Cannot determine local hostname
+2024-04-30 21:46:15 - INFO - Cannot determine local hostname
+2024-04-30 21:46:16 - INFO - Eureka HTTP Client uses RestTemplate.
+2024-04-30 21:46:16 - WARN - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-04-30 21:46:16 - INFO - Tomcat started on port 60223 (http) with context path '/api/v1'
+2024-04-30 21:46:16 - INFO - Updating port to 60223
+2024-04-30 21:46:16 - INFO - Setting initial instance status as: STARTING
+2024-04-30 21:46:16 - INFO - Initializing Eureka in region us-east-1
+2024-04-30 21:46:16 - INFO - Resolving eureka endpoints via configuration
+2024-04-30 21:46:16 - INFO - Disable delta property : false
+2024-04-30 21:46:16 - INFO - Single vip registry refresh property : null
+2024-04-30 21:46:16 - INFO - Force full registry fetch : false
+2024-04-30 21:46:16 - INFO - Application is null : false
+2024-04-30 21:46:16 - INFO - Registered Applications size is zero : true
+2024-04-30 21:46:16 - INFO - Application version is -1: true
+2024-04-30 21:46:16 - INFO - Getting all instance registry info from the eureka server
+2024-04-30 21:46:16 - INFO - The response status is 200
+2024-04-30 21:46:16 - INFO - Starting heartbeat executor: renew interval is: 30
+2024-04-30 21:46:16 - INFO - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-04-30 21:46:16 - INFO - Discovery Client initialized at timestamp 1714488376341 with initial instances count: 24
+2024-04-30 21:46:16 - INFO - Registering application SHORTURLSERVICE with eureka with status UP
+2024-04-30 21:46:16 - INFO - Saw local status change event StatusChangeEvent [timestamp=1714488376343, current=UP, previous=STARTING]
+2024-04-30 21:46:16 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:628a9800-7035-471d-8a07-3da57ea0f9fa: registering service...
+2024-04-30 21:46:16 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:628a9800-7035-471d-8a07-3da57ea0f9fa - registration status: 204
+2024-04-30 21:46:17 - INFO - Cannot determine local hostname
+2024-04-30 21:46:17 - INFO - Started ShortUrlServiceApplication in 9.192 seconds (process running for 9.88)
+2024-04-30 21:47:13 - INFO - Unregistering application SHORTURLSERVICE with eureka with status DOWN
+2024-04-30 21:47:13 - INFO - Saw local status change event StatusChangeEvent [timestamp=1714488433088, current=DOWN, previous=UP]
+2024-04-30 21:47:13 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:628a9800-7035-471d-8a07-3da57ea0f9fa: registering service...
+2024-04-30 21:47:13 - INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-30 21:47:13 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:628a9800-7035-471d-8a07-3da57ea0f9fa - registration status: 204
+2024-04-30 21:47:13 - INFO - HikariPool-1 - Shutdown initiated...
+2024-04-30 21:47:13 - INFO - HikariPool-1 - Shutdown completed.
+2024-04-30 21:47:13 - INFO - Shutting down DiscoveryClient ...
+2024-04-30 21:47:16 - INFO - Completed shut down of DiscoveryClient
+2024-04-30 21:47:23 - WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-30 21:47:23 - INFO - LiveReload server is running on port 35729
+2024-04-30 21:47:24 - INFO - Cannot determine local hostname
+2024-04-30 21:47:25 - INFO - Cannot determine local hostname
+2024-04-30 21:47:25 - INFO - Eureka HTTP Client uses RestTemplate.
+2024-04-30 21:47:25 - WARN - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-04-30 21:47:25 - INFO - Tomcat started on port 60399 (http) with context path '/api/v1'
+2024-04-30 21:47:25 - INFO - Updating port to 60399
+2024-04-30 21:47:25 - INFO - Setting initial instance status as: STARTING
+2024-04-30 21:47:25 - INFO - Initializing Eureka in region us-east-1
+2024-04-30 21:47:25 - INFO - Resolving eureka endpoints via configuration
+2024-04-30 21:47:25 - INFO - Disable delta property : false
+2024-04-30 21:47:25 - INFO - Single vip registry refresh property : null
+2024-04-30 21:47:25 - INFO - Force full registry fetch : false
+2024-04-30 21:47:25 - INFO - Application is null : false
+2024-04-30 21:47:25 - INFO - Registered Applications size is zero : true
+2024-04-30 21:47:25 - INFO - Application version is -1: true
+2024-04-30 21:47:25 - INFO - Getting all instance registry info from the eureka server
+2024-04-30 21:47:25 - INFO - The response status is 200
+2024-04-30 21:47:25 - INFO - Starting heartbeat executor: renew interval is: 30
+2024-04-30 21:47:25 - INFO - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-04-30 21:47:25 - INFO - Discovery Client initialized at timestamp 1714488445976 with initial instances count: 25
+2024-04-30 21:47:25 - INFO - Registering application SHORTURLSERVICE with eureka with status UP
+2024-04-30 21:47:25 - INFO - Saw local status change event StatusChangeEvent [timestamp=1714488445978, current=UP, previous=STARTING]
+2024-04-30 21:47:25 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:5c105eba-04ad-41b9-82fa-d5bcfff65b9b: registering service...
+2024-04-30 21:47:26 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:5c105eba-04ad-41b9-82fa-d5bcfff65b9b - registration status: 204
+2024-04-30 21:47:26 - INFO - Cannot determine local hostname
+2024-04-30 21:47:26 - INFO - Started ShortUrlServiceApplication in 8.831 seconds (process running for 9.543)
+2024-04-30 21:48:11 - INFO - Unregistering application SHORTURLSERVICE with eureka with status DOWN
+2024-04-30 21:48:11 - INFO - Saw local status change event StatusChangeEvent [timestamp=1714488491831, current=DOWN, previous=UP]
+2024-04-30 21:48:11 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:5c105eba-04ad-41b9-82fa-d5bcfff65b9b: registering service...
+2024-04-30 21:48:11 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:5c105eba-04ad-41b9-82fa-d5bcfff65b9b - registration status: 204
+2024-04-30 21:48:11 - INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-30 21:48:11 - INFO - HikariPool-1 - Shutdown initiated...
+2024-04-30 21:48:11 - INFO - HikariPool-1 - Shutdown completed.
+2024-04-30 21:48:11 - INFO - Shutting down DiscoveryClient ...
+2024-04-30 21:48:14 - INFO - Completed shut down of DiscoveryClient
+2024-04-30 21:48:22 - WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-30 21:48:22 - INFO - LiveReload server is running on port 35729
+2024-04-30 21:48:23 - INFO - Cannot determine local hostname
+2024-04-30 21:48:24 - INFO - Cannot determine local hostname
+2024-04-30 21:48:24 - INFO - Eureka HTTP Client uses RestTemplate.
+2024-04-30 21:48:24 - WARN - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-04-30 21:48:24 - INFO - Tomcat started on port 60500 (http) with context path '/api/v1'
+2024-04-30 21:48:24 - INFO - Updating port to 60500
+2024-04-30 21:48:24 - INFO - Setting initial instance status as: STARTING
+2024-04-30 21:48:24 - INFO - Initializing Eureka in region us-east-1
+2024-04-30 21:48:24 - INFO - Resolving eureka endpoints via configuration
+2024-04-30 21:48:24 - INFO - Disable delta property : false
+2024-04-30 21:48:24 - INFO - Single vip registry refresh property : null
+2024-04-30 21:48:24 - INFO - Force full registry fetch : false
+2024-04-30 21:48:24 - INFO - Application is null : false
+2024-04-30 21:48:24 - INFO - Registered Applications size is zero : true
+2024-04-30 21:48:24 - INFO - Application version is -1: true
+2024-04-30 21:48:24 - INFO - Getting all instance registry info from the eureka server
+2024-04-30 21:48:24 - INFO - The response status is 200
+2024-04-30 21:48:24 - INFO - Starting heartbeat executor: renew interval is: 30
+2024-04-30 21:48:24 - INFO - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-04-30 21:48:24 - INFO - Discovery Client initialized at timestamp 1714488504697 with initial instances count: 26
+2024-04-30 21:48:24 - INFO - Registering application SHORTURLSERVICE with eureka with status UP
+2024-04-30 21:48:24 - INFO - Saw local status change event StatusChangeEvent [timestamp=1714488504699, current=UP, previous=STARTING]
+2024-04-30 21:48:24 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:affc00c3-9bda-4eea-99bf-208594252be0: registering service...
+2024-04-30 21:48:24 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:affc00c3-9bda-4eea-99bf-208594252be0 - registration status: 204
+2024-04-30 21:48:25 - INFO - Cannot determine local hostname
+2024-04-30 21:48:25 - INFO - Started ShortUrlServiceApplication in 8.616 seconds (process running for 9.196)
+2024-04-30 21:49:18 - INFO - Unregistering application SHORTURLSERVICE with eureka with status DOWN
+2024-04-30 21:49:18 - INFO - Saw local status change event StatusChangeEvent [timestamp=1714488558481, current=DOWN, previous=UP]
+2024-04-30 21:49:18 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:affc00c3-9bda-4eea-99bf-208594252be0: registering service...
+2024-04-30 21:49:18 - INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-30 21:49:18 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:affc00c3-9bda-4eea-99bf-208594252be0 - registration status: 204
+2024-04-30 21:49:18 - INFO - HikariPool-1 - Shutdown initiated...
+2024-04-30 21:49:18 - INFO - HikariPool-1 - Shutdown completed.
+2024-04-30 21:49:18 - INFO - Shutting down DiscoveryClient ...
+2024-04-30 21:49:21 - INFO - Completed shut down of DiscoveryClient
+2024-04-30 21:49:28 - WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-30 21:49:28 - INFO - LiveReload server is running on port 35729
+2024-04-30 21:49:29 - INFO - Cannot determine local hostname
+2024-04-30 21:49:30 - INFO - Cannot determine local hostname
+2024-04-30 21:49:30 - INFO - Eureka HTTP Client uses RestTemplate.
+2024-04-30 21:49:30 - WARN - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-04-30 21:49:30 - INFO - Tomcat started on port 60584 (http) with context path '/api/v1'
+2024-04-30 21:49:30 - INFO - Updating port to 60584
+2024-04-30 21:49:30 - INFO - Setting initial instance status as: STARTING
+2024-04-30 21:49:30 - INFO - Initializing Eureka in region us-east-1
+2024-04-30 21:49:30 - INFO - Resolving eureka endpoints via configuration
+2024-04-30 21:49:30 - INFO - Disable delta property : false
+2024-04-30 21:49:30 - INFO - Single vip registry refresh property : null
+2024-04-30 21:49:30 - INFO - Force full registry fetch : false
+2024-04-30 21:49:30 - INFO - Application is null : false
+2024-04-30 21:49:30 - INFO - Registered Applications size is zero : true
+2024-04-30 21:49:30 - INFO - Application version is -1: true
+2024-04-30 21:49:30 - INFO - Getting all instance registry info from the eureka server
+2024-04-30 21:49:31 - INFO - The response status is 200
+2024-04-30 21:49:31 - INFO - Starting heartbeat executor: renew interval is: 30
+2024-04-30 21:49:31 - INFO - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-04-30 21:49:31 - INFO - Discovery Client initialized at timestamp 1714488571056 with initial instances count: 27
+2024-04-30 21:49:31 - INFO - Registering application SHORTURLSERVICE with eureka with status UP
+2024-04-30 21:49:31 - INFO - Saw local status change event StatusChangeEvent [timestamp=1714488571059, current=UP, previous=STARTING]
+2024-04-30 21:49:31 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:528ab10f-3bdd-45ae-b418-e68985255478: registering service...
+2024-04-30 21:49:31 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:528ab10f-3bdd-45ae-b418-e68985255478 - registration status: 204
+2024-04-30 21:49:32 - INFO - Cannot determine local hostname
+2024-04-30 21:49:32 - INFO - Started ShortUrlServiceApplication in 9.049 seconds (process running for 9.812)
+2024-04-30 21:52:15 - INFO - Unregistering application SHORTURLSERVICE with eureka with status DOWN
+2024-04-30 21:52:15 - INFO - Saw local status change event StatusChangeEvent [timestamp=1714488735579, current=DOWN, previous=UP]
+2024-04-30 21:52:15 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:528ab10f-3bdd-45ae-b418-e68985255478: registering service...
+2024-04-30 21:52:15 - INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-30 21:52:15 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:528ab10f-3bdd-45ae-b418-e68985255478 - registration status: 204
+2024-04-30 21:52:15 - INFO - HikariPool-1 - Shutdown initiated...
+2024-04-30 21:52:15 - INFO - HikariPool-1 - Shutdown completed.
+2024-04-30 21:52:15 - INFO - Shutting down DiscoveryClient ...
+2024-04-30 21:52:18 - INFO - Completed shut down of DiscoveryClient
+2024-04-30 21:52:25 - WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-30 21:52:26 - INFO - LiveReload server is running on port 35729
+2024-04-30 21:52:27 - INFO - Cannot determine local hostname
+2024-04-30 21:52:28 - INFO - Cannot determine local hostname
+2024-04-30 21:52:28 - INFO - Eureka HTTP Client uses RestTemplate.
+2024-04-30 21:52:28 - WARN - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-04-30 21:52:28 - INFO - Tomcat started on port 60752 (http) with context path '/api/v1'
+2024-04-30 21:52:28 - INFO - Updating port to 60752
+2024-04-30 21:52:28 - INFO - Setting initial instance status as: STARTING
+2024-04-30 21:52:28 - INFO - Initializing Eureka in region us-east-1
+2024-04-30 21:52:28 - INFO - Resolving eureka endpoints via configuration
+2024-04-30 21:52:28 - INFO - Disable delta property : false
+2024-04-30 21:52:28 - INFO - Single vip registry refresh property : null
+2024-04-30 21:52:28 - INFO - Force full registry fetch : false
+2024-04-30 21:52:28 - INFO - Application is null : false
+2024-04-30 21:52:28 - INFO - Registered Applications size is zero : true
+2024-04-30 21:52:28 - INFO - Application version is -1: true
+2024-04-30 21:52:28 - INFO - Getting all instance registry info from the eureka server
+2024-04-30 21:52:28 - INFO - The response status is 200
+2024-04-30 21:52:28 - INFO - Starting heartbeat executor: renew interval is: 30
+2024-04-30 21:52:28 - INFO - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-04-30 21:52:28 - INFO - Discovery Client initialized at timestamp 1714488748679 with initial instances count: 28
+2024-04-30 21:52:28 - INFO - Registering application SHORTURLSERVICE with eureka with status UP
+2024-04-30 21:52:28 - INFO - Saw local status change event StatusChangeEvent [timestamp=1714488748681, current=UP, previous=STARTING]
+2024-04-30 21:52:28 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:9a638daf-b4c6-4582-8b31-1addf4d62211: registering service...
+2024-04-30 21:52:28 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:9a638daf-b4c6-4582-8b31-1addf4d62211 - registration status: 204
+2024-04-30 21:52:29 - INFO - Cannot determine local hostname
+2024-04-30 21:52:29 - INFO - Started ShortUrlServiceApplication in 9.128 seconds (process running for 10.15)
+2024-04-30 21:53:11 - INFO - Unregistering application SHORTURLSERVICE with eureka with status DOWN
+2024-04-30 21:53:11 - INFO - Saw local status change event StatusChangeEvent [timestamp=1714488791587, current=DOWN, previous=UP]
+2024-04-30 21:53:11 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:9a638daf-b4c6-4582-8b31-1addf4d62211: registering service...
+2024-04-30 21:53:11 - INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-30 21:53:11 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:9a638daf-b4c6-4582-8b31-1addf4d62211 - registration status: 204
+2024-04-30 21:53:11 - INFO - HikariPool-1 - Shutdown initiated...
+2024-04-30 21:53:11 - INFO - HikariPool-1 - Shutdown completed.
+2024-04-30 21:53:11 - INFO - Shutting down DiscoveryClient ...
+2024-04-30 21:53:14 - INFO - Completed shut down of DiscoveryClient
+2024-04-30 21:55:59 - WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-30 21:55:59 - INFO - LiveReload server is running on port 35729
+2024-04-30 21:56:00 - INFO - Cannot determine local hostname
+2024-04-30 21:56:01 - INFO - Cannot determine local hostname
+2024-04-30 21:56:01 - INFO - Eureka HTTP Client uses RestTemplate.
+2024-04-30 21:56:01 - WARN - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-04-30 21:56:01 - INFO - Tomcat started on port 60965 (http) with context path '/api/v1'
+2024-04-30 21:56:01 - INFO - Updating port to 60965
+2024-04-30 21:56:01 - INFO - Setting initial instance status as: STARTING
+2024-04-30 21:56:01 - INFO - Initializing Eureka in region us-east-1
+2024-04-30 21:56:01 - INFO - Resolving eureka endpoints via configuration
+2024-04-30 21:56:01 - INFO - Disable delta property : false
+2024-04-30 21:56:01 - INFO - Single vip registry refresh property : null
+2024-04-30 21:56:01 - INFO - Force full registry fetch : false
+2024-04-30 21:56:01 - INFO - Application is null : false
+2024-04-30 21:56:01 - INFO - Registered Applications size is zero : true
+2024-04-30 21:56:01 - INFO - Application version is -1: true
+2024-04-30 21:56:01 - INFO - Getting all instance registry info from the eureka server
+2024-04-30 21:56:01 - INFO - The response status is 200
+2024-04-30 21:56:01 - INFO - Starting heartbeat executor: renew interval is: 30
+2024-04-30 21:56:01 - INFO - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-04-30 21:56:01 - INFO - Discovery Client initialized at timestamp 1714488961870 with initial instances count: 29
+2024-04-30 21:56:01 - INFO - Registering application SHORTURLSERVICE with eureka with status UP
+2024-04-30 21:56:01 - INFO - Saw local status change event StatusChangeEvent [timestamp=1714488961872, current=UP, previous=STARTING]
+2024-04-30 21:56:01 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:d569149a-0784-49f7-879e-969b8a0bc0b9: registering service...
+2024-04-30 21:56:01 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:d569149a-0784-49f7-879e-969b8a0bc0b9 - registration status: 204
+2024-04-30 21:56:02 - INFO - Cannot determine local hostname
+2024-04-30 21:56:02 - INFO - Started ShortUrlServiceApplication in 165.255 seconds (process running for 165.923)
+2024-04-30 21:56:02 - INFO - Unregistering application SHORTURLSERVICE with eureka with status DOWN
+2024-04-30 21:56:02 - INFO - Saw local status change event StatusChangeEvent [timestamp=1714488962897, current=DOWN, previous=UP]
+2024-04-30 21:56:02 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:d569149a-0784-49f7-879e-969b8a0bc0b9: registering service...
+2024-04-30 21:56:02 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:d569149a-0784-49f7-879e-969b8a0bc0b9 - registration status: 204
+2024-04-30 21:56:02 - INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-30 21:56:02 - INFO - HikariPool-1 - Shutdown initiated...
+2024-04-30 21:56:02 - INFO - HikariPool-1 - Shutdown completed.
+2024-04-30 21:56:02 - INFO - Shutting down DiscoveryClient ...
+2024-04-30 21:56:13 - WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-30 21:56:14 - INFO - LiveReload server is running on port 35729
+2024-04-30 21:56:15 - INFO - Cannot determine local hostname
+2024-04-30 21:56:16 - INFO - Cannot determine local hostname
+2024-04-30 21:56:16 - INFO - Eureka HTTP Client uses RestTemplate.
+2024-04-30 21:56:16 - WARN - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-04-30 21:56:16 - INFO - Tomcat started on port 60997 (http) with context path '/api/v1'
+2024-04-30 21:56:16 - INFO - Updating port to 60997
+2024-04-30 21:56:16 - INFO - Setting initial instance status as: STARTING
+2024-04-30 21:56:16 - INFO - Initializing Eureka in region us-east-1
+2024-04-30 21:56:16 - INFO - Resolving eureka endpoints via configuration
+2024-04-30 21:56:16 - INFO - Disable delta property : false
+2024-04-30 21:56:16 - INFO - Single vip registry refresh property : null
+2024-04-30 21:56:16 - INFO - Force full registry fetch : false
+2024-04-30 21:56:16 - INFO - Application is null : false
+2024-04-30 21:56:16 - INFO - Registered Applications size is zero : true
+2024-04-30 21:56:16 - INFO - Application version is -1: true
+2024-04-30 21:56:16 - INFO - Getting all instance registry info from the eureka server
+2024-04-30 21:56:16 - INFO - The response status is 200
+2024-04-30 21:56:16 - INFO - Starting heartbeat executor: renew interval is: 30
+2024-04-30 21:56:16 - INFO - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-04-30 21:56:16 - INFO - Discovery Client initialized at timestamp 1714488976564 with initial instances count: 30
+2024-04-30 21:56:16 - INFO - Registering application SHORTURLSERVICE with eureka with status UP
+2024-04-30 21:56:16 - INFO - Saw local status change event StatusChangeEvent [timestamp=1714488976567, current=UP, previous=STARTING]
+2024-04-30 21:56:16 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:d3ccb756-4304-4575-8ed3-9cb77d135df6: registering service...
+2024-04-30 21:56:16 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:d3ccb756-4304-4575-8ed3-9cb77d135df6 - registration status: 204
+2024-04-30 21:56:17 - INFO - Cannot determine local hostname
+2024-04-30 21:56:17 - INFO - Started ShortUrlServiceApplication in 8.539 seconds (process running for 9.217)
+2024-04-30 21:56:32 - INFO - Unregistering application SHORTURLSERVICE with eureka with status DOWN
+2024-04-30 21:56:32 - INFO - Saw local status change event StatusChangeEvent [timestamp=1714488992130, current=DOWN, previous=UP]
+2024-04-30 21:56:32 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:d3ccb756-4304-4575-8ed3-9cb77d135df6: registering service...
+2024-04-30 21:56:32 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:d3ccb756-4304-4575-8ed3-9cb77d135df6 - registration status: 204
+2024-04-30 21:56:32 - INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-30 21:56:32 - INFO - HikariPool-1 - Shutdown initiated...
+2024-04-30 21:56:32 - INFO - HikariPool-1 - Shutdown completed.
+2024-04-30 21:56:32 - INFO - Shutting down DiscoveryClient ...
+2024-04-30 21:56:35 - INFO - Completed shut down of DiscoveryClient
+2024-04-30 21:57:56 - WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-30 21:57:57 - INFO - LiveReload server is running on port 35729
+2024-04-30 22:02:00 - WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-30 22:02:01 - INFO - LiveReload server is running on port 35729
+2024-04-30 22:02:02 - INFO - Cannot determine local hostname
+2024-04-30 22:02:03 - INFO - Cannot determine local hostname
+2024-04-30 22:02:03 - INFO - Eureka HTTP Client uses RestTemplate.
+2024-04-30 22:02:03 - WARN - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-04-30 22:02:03 - INFO - Tomcat started on port 61333 (http) with context path '/api/v1'
+2024-04-30 22:02:03 - INFO - Updating port to 61333
+2024-04-30 22:02:03 - INFO - Setting initial instance status as: STARTING
+2024-04-30 22:02:03 - INFO - Initializing Eureka in region us-east-1
+2024-04-30 22:02:03 - INFO - Resolving eureka endpoints via configuration
+2024-04-30 22:02:03 - INFO - Disable delta property : false
+2024-04-30 22:02:03 - INFO - Single vip registry refresh property : null
+2024-04-30 22:02:03 - INFO - Force full registry fetch : false
+2024-04-30 22:02:03 - INFO - Application is null : false
+2024-04-30 22:02:03 - INFO - Registered Applications size is zero : true
+2024-04-30 22:02:03 - INFO - Application version is -1: true
+2024-04-30 22:02:03 - INFO - Getting all instance registry info from the eureka server
+2024-04-30 22:02:03 - INFO - The response status is 200
+2024-04-30 22:02:03 - INFO - Starting heartbeat executor: renew interval is: 30
+2024-04-30 22:02:03 - INFO - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-04-30 22:02:03 - INFO - Discovery Client initialized at timestamp 1714489323477 with initial instances count: 31
+2024-04-30 22:02:03 - INFO - Registering application SHORTURLSERVICE with eureka with status UP
+2024-04-30 22:02:03 - INFO - Saw local status change event StatusChangeEvent [timestamp=1714489323479, current=UP, previous=STARTING]
+2024-04-30 22:02:03 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:eb3d85d7-c3a2-4719-bda3-8039ade6eedd: registering service...
+2024-04-30 22:02:03 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:eb3d85d7-c3a2-4719-bda3-8039ade6eedd - registration status: 204
+2024-04-30 22:02:04 - INFO - Cannot determine local hostname
+2024-04-30 22:02:04 - INFO - Started ShortUrlServiceApplication in 243.04 seconds (process running for 243.721)
+2024-04-30 22:02:04 - INFO - Unregistering application SHORTURLSERVICE with eureka with status DOWN
+2024-04-30 22:02:04 - INFO - Saw local status change event StatusChangeEvent [timestamp=1714489324504, current=DOWN, previous=UP]
+2024-04-30 22:02:04 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:eb3d85d7-c3a2-4719-bda3-8039ade6eedd: registering service...
+2024-04-30 22:02:04 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:eb3d85d7-c3a2-4719-bda3-8039ade6eedd - registration status: 204
+2024-04-30 22:02:04 - INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-30 22:02:04 - INFO - HikariPool-1 - Shutdown initiated...
+2024-04-30 22:02:04 - INFO - HikariPool-1 - Shutdown completed.
+2024-04-30 22:02:04 - INFO - Shutting down DiscoveryClient ...
+2024-04-30 22:02:07 - INFO - Completed shut down of DiscoveryClient
+2024-04-30 22:02:35 - WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-30 22:02:35 - INFO - LiveReload server is running on port 35729
+2024-04-30 22:02:36 - INFO - Cannot determine local hostname
+2024-04-30 22:02:37 - INFO - Cannot determine local hostname
+2024-04-30 22:02:37 - INFO - Eureka HTTP Client uses RestTemplate.
+2024-04-30 22:02:37 - WARN - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-04-30 22:02:37 - INFO - Tomcat started on port 61433 (http) with context path '/api/v1'
+2024-04-30 22:02:37 - INFO - Updating port to 61433
+2024-04-30 22:02:37 - INFO - Setting initial instance status as: STARTING
+2024-04-30 22:02:37 - INFO - Initializing Eureka in region us-east-1
+2024-04-30 22:02:37 - INFO - Resolving eureka endpoints via configuration
+2024-04-30 22:02:37 - INFO - Disable delta property : false
+2024-04-30 22:02:37 - INFO - Single vip registry refresh property : null
+2024-04-30 22:02:37 - INFO - Force full registry fetch : false
+2024-04-30 22:02:37 - INFO - Application is null : false
+2024-04-30 22:02:37 - INFO - Registered Applications size is zero : true
+2024-04-30 22:02:37 - INFO - Application version is -1: true
+2024-04-30 22:02:37 - INFO - Getting all instance registry info from the eureka server
+2024-04-30 22:02:37 - INFO - The response status is 200
+2024-04-30 22:02:37 - INFO - Starting heartbeat executor: renew interval is: 30
+2024-04-30 22:02:37 - INFO - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-04-30 22:02:37 - INFO - Discovery Client initialized at timestamp 1714489357731 with initial instances count: 32
+2024-04-30 22:02:37 - INFO - Registering application SHORTURLSERVICE with eureka with status UP
+2024-04-30 22:02:37 - INFO - Saw local status change event StatusChangeEvent [timestamp=1714489357733, current=UP, previous=STARTING]
+2024-04-30 22:02:37 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:03249c20-8fb1-4d1d-8bb5-80678ca8328b: registering service...
+2024-04-30 22:02:37 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:03249c20-8fb1-4d1d-8bb5-80678ca8328b - registration status: 204
+2024-04-30 22:02:38 - INFO - Cannot determine local hostname
+2024-04-30 22:02:38 - INFO - Started ShortUrlServiceApplication in 28.717 seconds (process running for 29.603)
+2024-04-30 22:03:14 - INFO - Unregistering application SHORTURLSERVICE with eureka with status DOWN
+2024-04-30 22:03:14 - INFO - Saw local status change event StatusChangeEvent [timestamp=1714489394984, current=DOWN, previous=UP]
+2024-04-30 22:03:14 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:03249c20-8fb1-4d1d-8bb5-80678ca8328b: registering service...
+2024-04-30 22:03:14 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:03249c20-8fb1-4d1d-8bb5-80678ca8328b - registration status: 204
+2024-04-30 22:03:14 - INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-30 22:03:14 - INFO - HikariPool-1 - Shutdown initiated...
+2024-04-30 22:03:14 - INFO - HikariPool-1 - Shutdown completed.
+2024-04-30 22:03:14 - INFO - Shutting down DiscoveryClient ...
+2024-04-30 22:03:18 - INFO - Completed shut down of DiscoveryClient
+2024-04-30 22:06:38 - WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-30 22:06:38 - INFO - LiveReload server is running on port 35729
+2024-04-30 22:06:39 - INFO - Cannot determine local hostname
+2024-04-30 22:06:40 - INFO - Cannot determine local hostname
+2024-04-30 22:06:40 - INFO - Eureka HTTP Client uses RestTemplate.
+2024-04-30 22:06:40 - WARN - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-04-30 22:06:40 - INFO - Tomcat started on port 61739 (http) with context path '/api/v1'
+2024-04-30 22:06:40 - INFO - Updating port to 61739
+2024-04-30 22:06:40 - INFO - Setting initial instance status as: STARTING
+2024-04-30 22:06:40 - INFO - Initializing Eureka in region us-east-1
+2024-04-30 22:06:40 - INFO - Resolving eureka endpoints via configuration
+2024-04-30 22:06:40 - INFO - Disable delta property : false
+2024-04-30 22:06:40 - INFO - Single vip registry refresh property : null
+2024-04-30 22:06:40 - INFO - Force full registry fetch : false
+2024-04-30 22:06:40 - INFO - Application is null : false
+2024-04-30 22:06:40 - INFO - Registered Applications size is zero : true
+2024-04-30 22:06:40 - INFO - Application version is -1: true
+2024-04-30 22:06:40 - INFO - Getting all instance registry info from the eureka server
+2024-04-30 22:06:41 - INFO - The response status is 200
+2024-04-30 22:06:41 - INFO - Starting heartbeat executor: renew interval is: 30
+2024-04-30 22:06:41 - INFO - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-04-30 22:06:41 - INFO - Discovery Client initialized at timestamp 1714489601151 with initial instances count: 33
+2024-04-30 22:06:41 - INFO - Registering application SHORTURLSERVICE with eureka with status UP
+2024-04-30 22:06:41 - INFO - Saw local status change event StatusChangeEvent [timestamp=1714489601153, current=UP, previous=STARTING]
+2024-04-30 22:06:41 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:073cd8f7-dcea-4d39-a2fb-f35bb5051d92: registering service...
+2024-04-30 22:06:41 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:073cd8f7-dcea-4d39-a2fb-f35bb5051d92 - registration status: 204
+2024-04-30 22:06:42 - INFO - Cannot determine local hostname
+2024-04-30 22:06:42 - INFO - Started ShortUrlServiceApplication in 200.88 seconds (process running for 201.744)
+2024-04-30 22:06:42 - INFO - Unregistering application SHORTURLSERVICE with eureka with status DOWN
+2024-04-30 22:06:42 - INFO - Saw local status change event StatusChangeEvent [timestamp=1714489602184, current=DOWN, previous=UP]
+2024-04-30 22:06:42 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:073cd8f7-dcea-4d39-a2fb-f35bb5051d92: registering service...
+2024-04-30 22:06:42 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:073cd8f7-dcea-4d39-a2fb-f35bb5051d92 - registration status: 204
+2024-04-30 22:06:42 - INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-30 22:06:42 - INFO - HikariPool-1 - Shutdown initiated...
+2024-04-30 22:06:42 - INFO - HikariPool-1 - Shutdown completed.
+2024-04-30 22:06:42 - INFO - Shutting down DiscoveryClient ...
+2024-04-30 22:06:45 - INFO - Completed shut down of DiscoveryClient
+2024-04-30 22:08:11 - WARN - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-30 22:08:12 - INFO - LiveReload server is running on port 35729
+2024-04-30 22:08:13 - INFO - Cannot determine local hostname
+2024-04-30 22:08:14 - INFO - Cannot determine local hostname
+2024-04-30 22:08:14 - INFO - Eureka HTTP Client uses RestTemplate.
+2024-04-30 22:08:14 - WARN - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-04-30 22:08:14 - INFO - Tomcat started on port 61883 (http) with context path '/api/v1'
+2024-04-30 22:08:14 - INFO - Updating port to 61883
+2024-04-30 22:08:14 - INFO - Setting initial instance status as: STARTING
+2024-04-30 22:08:14 - INFO - Initializing Eureka in region us-east-1
+2024-04-30 22:08:14 - INFO - Resolving eureka endpoints via configuration
+2024-04-30 22:08:14 - INFO - Disable delta property : false
+2024-04-30 22:08:14 - INFO - Single vip registry refresh property : null
+2024-04-30 22:08:14 - INFO - Force full registry fetch : false
+2024-04-30 22:08:14 - INFO - Application is null : false
+2024-04-30 22:08:14 - INFO - Registered Applications size is zero : true
+2024-04-30 22:08:14 - INFO - Application version is -1: true
+2024-04-30 22:08:14 - INFO - Getting all instance registry info from the eureka server
+2024-04-30 22:08:14 - INFO - The response status is 200
+2024-04-30 22:08:14 - INFO - Starting heartbeat executor: renew interval is: 30
+2024-04-30 22:08:14 - INFO - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-04-30 22:08:14 - INFO - Discovery Client initialized at timestamp 1714489694602 with initial instances count: 34
+2024-04-30 22:08:14 - INFO - Registering application SHORTURLSERVICE with eureka with status UP
+2024-04-30 22:08:14 - INFO - Saw local status change event StatusChangeEvent [timestamp=1714489694605, current=UP, previous=STARTING]
+2024-04-30 22:08:14 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:2ccf12fa-efa8-404d-b484-0d51223328b7: registering service...
+2024-04-30 22:08:14 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:2ccf12fa-efa8-404d-b484-0d51223328b7 - registration status: 204
+2024-04-30 22:08:15 - INFO - Cannot determine local hostname
+2024-04-30 22:08:15 - INFO - Started ShortUrlServiceApplication in 86.748 seconds (process running for 87.502)
+2024-04-30 22:08:15 - INFO - Unregistering application SHORTURLSERVICE with eureka with status DOWN
+2024-04-30 22:08:15 - INFO - Saw local status change event StatusChangeEvent [timestamp=1714489695635, current=DOWN, previous=UP]
+2024-04-30 22:08:15 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:2ccf12fa-efa8-404d-b484-0d51223328b7: registering service...
+2024-04-30 22:08:15 - INFO - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:2ccf12fa-efa8-404d-b484-0d51223328b7 - registration status: 204
+2024-04-30 22:08:15 - INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-30 22:08:15 - INFO - HikariPool-1 - Shutdown initiated...
+2024-04-30 22:08:15 - INFO - HikariPool-1 - Shutdown completed.
+2024-04-30 22:08:15 - INFO - Shutting down DiscoveryClient ...
+2024-04-30 22:08:18 - INFO - Completed shut down of DiscoveryClient
+2024-05-01 18:16:10 - WARN - %PARSER_ERROR[null] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-01 18:16:11 - WARN - %PARSER_ERROR[null] - Unable to start LiveReload server
+2024-05-01 18:16:12 - INFO - %PARSER_ERROR[null] - Cannot determine local hostname
+2024-05-01 18:16:13 - INFO - %PARSER_ERROR[null] - Cannot determine local hostname
+2024-05-01 18:16:13 - INFO - %PARSER_ERROR[null] - Eureka HTTP Client uses RestTemplate.
+2024-05-01 18:16:13 - WARN - %PARSER_ERROR[null] - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-05-01 18:16:13 - INFO - %PARSER_ERROR[null] - Tomcat started on port 61251 (http) with context path '/api/v1'
+2024-05-01 18:16:13 - INFO - %PARSER_ERROR[null] - Updating port to 61251
+2024-05-01 18:16:13 - INFO - %PARSER_ERROR[null] - Setting initial instance status as: STARTING
+2024-05-01 18:16:13 - INFO - %PARSER_ERROR[null] - Initializing Eureka in region us-east-1
+2024-05-01 18:16:13 - INFO - %PARSER_ERROR[null] - Resolving eureka endpoints via configuration
+2024-05-01 18:16:13 - INFO - %PARSER_ERROR[null] - Disable delta property : false
+2024-05-01 18:16:13 - INFO - %PARSER_ERROR[null] - Single vip registry refresh property : null
+2024-05-01 18:16:13 - INFO - %PARSER_ERROR[null] - Force full registry fetch : false
+2024-05-01 18:16:13 - INFO - %PARSER_ERROR[null] - Application is null : false
+2024-05-01 18:16:13 - INFO - %PARSER_ERROR[null] - Registered Applications size is zero : true
+2024-05-01 18:16:13 - INFO - %PARSER_ERROR[null] - Application version is -1: true
+2024-05-01 18:16:13 - INFO - %PARSER_ERROR[null] - Getting all instance registry info from the eureka server
+2024-05-01 18:16:13 - INFO - %PARSER_ERROR[null] - The response status is 200
+2024-05-01 18:16:13 - INFO - %PARSER_ERROR[null] - Starting heartbeat executor: renew interval is: 30
+2024-05-01 18:16:13 - INFO - %PARSER_ERROR[null] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-05-01 18:16:13 - INFO - %PARSER_ERROR[null] - Discovery Client initialized at timestamp 1714562173618 with initial instances count: 6
+2024-05-01 18:16:13 - INFO - %PARSER_ERROR[null] - Registering application SHORTURLSERVICE with eureka with status UP
+2024-05-01 18:16:13 - INFO - %PARSER_ERROR[null] - Saw local status change event StatusChangeEvent [timestamp=1714562173621, current=UP, previous=STARTING]
+2024-05-01 18:16:13 - INFO - %PARSER_ERROR[null] - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:56f12e6c-1125-42d6-8ef9-0461a42a2d7d: registering service...
+2024-05-01 18:16:13 - INFO - %PARSER_ERROR[null] - DiscoveryClient_SHORTURLSERVICE/ShortUrlService:56f12e6c-1125-42d6-8ef9-0461a42a2d7d - registration status: 204
+2024-05-01 18:16:14 - INFO - %PARSER_ERROR[null] - Cannot determine local hostname
+2024-05-01 18:16:14 - INFO - %PARSER_ERROR[null] - Started ShortUrlServiceApplication in 8.721 seconds (process running for 9.245)
+2024-05-01 18:21:13 - INFO - %PARSER_ERROR[null] - Resolving eureka endpoints via configuration
+2024-05-01 18:26:13 - INFO - %PARSER_ERROR[null] - Resolving eureka endpoints via configuration
+2024-05-01 18:28:19 - INFO - %PARSER_ERROR[null] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-01 18:28:19 - INFO - %PARSER_ERROR[null] - Initializing Servlet 'dispatcherServlet'
+2024-05-01 18:28:19 - INFO - %PARSER_ERROR[null] - Completed initialization in 1 ms
+2024-05-01 18:28:20 - WARN - %PARSER_ERROR[null] - found more than one OpenAPIDefinition class. springdoc-openapi will be using the first one found.
+2024-05-01 18:28:20 - INFO - %PARSER_ERROR[null] - Init duration for springdoc-openapi is: 121 ms
+2024-05-01 18:31:13 - INFO - %PARSER_ERROR[null] - Resolving eureka endpoints via configuration
+2024-05-01 18:36:13 - INFO - %PARSER_ERROR[null] - Resolving eureka endpoints via configuration

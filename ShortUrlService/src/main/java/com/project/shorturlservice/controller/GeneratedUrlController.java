@@ -55,7 +55,7 @@ public class GeneratedUrlController {
                     @ExampleObject(name = "ErrorResponse", value = "{\"longUrl\": \"простоТекст\"}",
                             description = "Запрос с некорректными данными"),
             }))
-    @ApiResponse(responseCode = "201", description = "Создана сокращенная ссылка",
+    @ApiResponse(responseCode = "200", description = "Создана сокращенная ссылка",
             content = @Content(mediaType = MediaType.APPLICATION_JSON_VALUE,
                     schema = @Schema(implementation = ExceptionResponse.class),
                     examples = {@ExampleObject(name = "ExampleResponse", value = """
@@ -70,10 +70,12 @@ public class GeneratedUrlController {
                     schema = @Schema(implementation = ExceptionResponse.class),
                     examples = {@ExampleObject(name = "ExampleResponse",
                             value = """
-                                {
-                                    "uri": "/api/v1/generate",
-                                    "message": "Error, field longUrl is not valid"
-                                }""",
+                            {
+                              "timestamp": "2024-05-01 18:28:43",
+                              "path": "/api/v1/generate",
+                              "message": "Error, field longUrl is not valid",
+                              "status": "BAD_REQUEST"
+                            }""",
                             description = "Переданная строка не является ссылкой")
                     }))
 

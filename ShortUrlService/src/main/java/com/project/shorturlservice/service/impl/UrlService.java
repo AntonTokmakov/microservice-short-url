@@ -39,11 +39,13 @@ public class UrlService implements GeneratorService, RedirectService, FindLink {
     public String generateShortUrl(String longUrl) {
 
         if (longUrl == null || longUrl.isEmpty()) {
+            log.warn("Long URL cannot be empty");
             throw new IllegalArgumentException("Long URL cannot be empty");
         }
 
         if (urlRepository.existsByLongUrl(longUrl)) {
-            Url url = urlRepository.findByLongUrl(longUrl).get();
+            Url url = urlRepository.findByLongUrl(longUrl)
+                    .orElseThrow(() -> new LinkNotFoundException("Long URL %s not found".formatted(longUrl)));
             url.setDateTime(ZonedDateTime.now());
             urlRepository.save(url);
             log.info("Update Short URL: %s long URL: %s".formatted(url.getShortUrl(), longUrl));

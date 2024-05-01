@@ -30,7 +30,7 @@ public class RedirectController {
     @Operation(summary = "Переход по короткой ссылке",
             description = "Endpoint для перехода по короткой ссылке",
             tags = {"Переход по короткой ссылке"})
-    @ApiResponse(responseCode = "302", description = "Переход на сайт по кототкой ссылке",
+    @ApiResponse(responseCode = "200", description = "Переход на сайт по кототкой ссылке",
             content = @Content(mediaType = MediaType.TEXT_HTML_VALUE,
                     schema = @Schema(implementation = String.class),
                     examples = {@ExampleObject(name = "ExampleResponse", value = """
@@ -44,19 +44,6 @@ public class RedirectController {
                                 <meta name="viewport"
                              ......"""),
 
-    }))
-    @ApiResponse(responseCode = "400", description = "Ошибка в запросе",
-            content = @Content(mediaType = MediaType.APPLICATION_JSON_VALUE,
-                    schema = @Schema(implementation = ExceptionResponse.class),
-                    examples = {@ExampleObject(name = "ExampleResponse",
-                                    value = """
-                            {
-                                "timestamp": "2024-04-26 03:21:39",
-                                "path": "/api/v1/qcRl3T-o",
-                                "message": "Short URL http://localhost:8080/api/v1/qcRl3T-o not found",
-                                "status": "NOT_FOUND"
-                            }""",
-                                    description = "Переданная строка не является ссылкой")
     }))
     @ApiResponse(responseCode = "404", description = "Ссылка не найдена",
             content = @Content(mediaType = MediaType.APPLICATION_JSON_VALUE,
