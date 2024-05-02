@@ -1,0 +1,97 @@
+services:
+  postgres:
+    restart: always
+    image: 'postgres:latest'
+    environment:
+      - 'POSTGRES_DB=short_url'
+      - 'POSTGRES_PASSWORD=password_admin'
+      - 'POSTGRES_USER=admin'
+    ports:
+      - "5432:5432"
+    volumes:
+      - './data/postgres:/var/lib/postgresql/data'
+    healthcheck:
+      test: [ "CMD", "pg_isready", "-U", "postgres" ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - network
+
+  eureka-server:
+    restart: always
+    build: ./ShortUrlServer
+    ports:
+      - "8761:8761"
+    networks:
+      - network
+
+  short-url:
+    restart: always
+    build: ./ShortUrlService
+    deploy:
+      replicas: 3
+    environment:
+      - LOKI=http://loki:3100
+    networks:
+      - network
+    depends_on:
+      postgres:
+        condition: service_healthy
+      eureka-server:
+        condition: service_started
+      grafana:
+        condition: service_started
+
+  redis:
+    restart: always
+    image: redis
+    ports:
+      - "6379:6379"
+    networks:
+      - network
+
+  api-gateway:
+    restart: always
+    build: ./ApiGateway
+    ports:
+      - "8090:8090"
+    networks:
+      - network
+    depends_on:
+      - short-url
+      - redis
+
+  grafana:
+    image: grafana/grafana:latest
+    container_name: grafana
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./grafana/data:/var/lib/grafana
+    #    #      - ./grafana/provisioning/datasource:/etc/grafana/provisioning/datasource
+    #      - ./provisioning/datasources:/etc/grafana/provisioning/datasources
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+    networks:
+      - network
+    depends_on:
+      - loki
+
+  loki:
+    image: grafana/loki:latest
+    container_name: loki
+    ports:
+      - "3100"
+    volumes:
+      - loki_data:/data
+    networks:
+      - network
+
+volumes:
+  grafana_data:
+  loki_data:
+
+networks:
+  network:
+    driver: bridge

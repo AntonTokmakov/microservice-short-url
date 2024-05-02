@@ -1,0 +1,132 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"6b9475b4-c4ed-499c-ae07-cfd90c04e8dc\" name=\"Changes\" comment=\"\">\r\n      <change afterPath=\"$PROJECT_DIR$/.gitignore\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/encodings.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/misc.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/uiDesigner.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/vcs.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/ApiGateway/.gitignore\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/ApiGateway/.mvn/wrapper/maven-wrapper.jar\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/ApiGateway/.mvn/wrapper/maven-wrapper.properties\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/ApiGateway/compose.yml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/ApiGateway/mvnw\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/ApiGateway/mvnw.cmd\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/ApiGateway/pom.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/ApiGateway/src/main/java/com/project/apigateway/ApiGatewayApplication.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/ApiGateway/src/main/java/com/project/apigateway/IpAddressKeyResolver.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/ApiGateway/src/main/java/com/project/apigateway/RequestRateLimiterFilterFactory.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/ApiGateway/src/main/java/com/project/apigateway/config/AppConfig.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/ApiGateway/src/main/resources/application.yml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/ApiGateway/src/test/java/com/project/apigateway/ApiGatewayApplicationTests.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/ShortUrlServer/.gitignore\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/ShortUrlServer/.mvn/wrapper/maven-wrapper.jar\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/ShortUrlServer/.mvn/wrapper/maven-wrapper.properties\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/ShortUrlServer/mvnw\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/ShortUrlServer/mvnw.cmd\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/ShortUrlServer/pom.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/ShortUrlServer/src/main/java/com/project/shorturlserver/ShortUrlServerApplication.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/ShortUrlServer/src/main/resources/application.yml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/ShortUrlServer/src/test/java/com/project/shorturlserver/ShortUrlServerApplicationTests.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/ShortUrlService/.gitignore\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/ShortUrlService/.mvn/wrapper/maven-wrapper.jar\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/ShortUrlService/.mvn/wrapper/maven-wrapper.properties\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/ShortUrlService/mvnw\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/ShortUrlService/mvnw.cmd\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/ShortUrlService/pom.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/ShortUrlServiceApplication.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/controller/TestController.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/ShortUrlService/src/main/resources/application.yml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/ShortUrlService/src/test/java/com/project/shorturlservice/ShortUrlServiceApplicationTests.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/pom.xml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"KubernetesApiProvider\"><![CDATA[{\r\n  \"isMigrated\": true\r\n}]]></component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\"><![CDATA[{\r\n  \"associatedIndex\": 7\r\n}]]></component>\r\n  <component name=\"ProjectId\" id=\"2fV72gNg7M4YSfS2c4BeuR0bgtT\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"ASKED_ADD_EXTERNAL_FILES\": \"true\",\r\n    \"Docker.ApiGateway/compose.yml: Compose Deployment.executor\": \"Run\",\r\n    \"JUnit.All in ShortUrlService.executor\": \"Run\",\r\n    \"Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor\": \"Run\",\r\n    \"Maven.micro-project [package].executor\": \"Run\",\r\n    \"RequestMappingsPanelOrder0\": \"0\",\r\n    \"RequestMappingsPanelOrder1\": \"1\",\r\n    \"RequestMappingsPanelWidth0\": \"75\",\r\n    \"RequestMappingsPanelWidth1\": \"75\",\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"Spring Boot.ApiGatewayApplication.executor\": \"Run\",\r\n    \"Spring Boot.ShortUrlServerApplication.executor\": \"Run\",\r\n    \"Spring Boot.ShortUrlServiceApplication-inst1.executor\": \"Run\",\r\n    \"Spring Boot.ShortUrlServiceApplication-inst2.executor\": \"Run\",\r\n    \"Spring Boot.ShortUrlServiceApplication.executor\": \"Run\",\r\n    \"git-widget-placeholder\": \"master\",\r\n    \"jdk.selected.JAVA_MODULE\": \"21\",\r\n    \"kotlin-language-version-configured\": \"true\",\r\n    \"last_opened_file_path\": \"C:/Users/anton/IdeaProjects/urlShort/micro-project/ApiGateway\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"nodejs_package_manager_path\": \"npm\",\r\n    \"run.configurations.included.in.services\": \"true\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RunAnythingCache\">\r\n    <option name=\"myCommands\">\r\n      <command value=\"mvn package\" />\r\n    </option>\r\n  </component>\r\n  <component name=\"RunDashboard\">\r\n    <option name=\"configurationTypes\">\r\n      <set>\r\n        <option value=\"MicronautRunConfigurationType\" />\r\n        <option value=\"QuarkusRunConfigurationType\" />\r\n        <option value=\"SpringBootApplicationConfigurationType\" />\r\n      </set>\r\n    </option>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Docker.ApiGateway/compose.yml: Compose Deployment\">\r\n    <configuration name=\"All in ShortUrlService\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"ShortUrlService\" />\r\n      <option name=\"PACKAGE_NAME\" value=\"\" />\r\n      <option name=\"TEST_OBJECT\" value=\"package\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"ApiGatewayApplication\" type=\"SpringBootApplicationConfigurationType\" factoryName=\"Spring Boot\" nameIsGenerated=\"true\">\r\n      <module name=\"ApiGateway\" />\r\n      <option name=\"SPRING_BOOT_MAIN_CLASS\" value=\"com.project.apigateway.ApiGatewayApplication\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"ShortUrlServerApplication\" type=\"SpringBootApplicationConfigurationType\" factoryName=\"Spring Boot\" nameIsGenerated=\"true\">\r\n      <module name=\"ShortUrlServer\" />\r\n      <option name=\"SPRING_BOOT_MAIN_CLASS\" value=\"com.project.shorturlserver.ShortUrlServerApplication\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"ShortUrlServiceApplication-inst1\" type=\"SpringBootApplicationConfigurationType\" factoryName=\"Spring Boot\">\r\n      <module name=\"ShortUrlService\" />\r\n      <option name=\"SPRING_BOOT_MAIN_CLASS\" value=\"com.project.shorturlservice.ShortUrlServiceApplication\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"ShortUrlServiceApplication-inst2\" type=\"SpringBootApplicationConfigurationType\" factoryName=\"Spring Boot\">\r\n      <module name=\"ShortUrlService\" />\r\n      <option name=\"SPRING_BOOT_MAIN_CLASS\" value=\"com.project.shorturlservice.ShortUrlServiceApplication\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"ApiGateway/compose.yml: Compose Deployment\" type=\"docker-deploy\" factoryName=\"docker-compose.yml\" temporary=\"true\" server-name=\"Docker\">\r\n      <deployment type=\"docker-compose.yml\">\r\n        <settings>\r\n          <option name=\"sourceFilePath\" value=\"ApiGateway/compose.yml\" />\r\n        </settings>\r\n      </deployment>\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration default=\"true\" type=\"docker-deploy\" factoryName=\"docker-compose.yml\" temporary=\"true\">\r\n      <deployment type=\"docker-compose.yml\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <list>\r\n      <item itemvalue=\"Docker.ApiGateway/compose.yml: Compose Deployment\" />\r\n      <item itemvalue=\"JUnit.All in ShortUrlService\" />\r\n      <item itemvalue=\"Spring Boot.ApiGatewayApplication\" />\r\n      <item itemvalue=\"Spring Boot.ShortUrlServerApplication\" />\r\n      <item itemvalue=\"Spring Boot.ShortUrlServiceApplication-inst1\" />\r\n      <item itemvalue=\"Spring Boot.ShortUrlServiceApplication-inst2\" />\r\n    </list>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Docker.ApiGateway/compose.yml: Compose Deployment\" />\r\n        <item itemvalue=\"JUnit.All in ShortUrlService\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"6b9475b4-c4ed-499c-ae07-cfd90c04e8dc\" name=\"Changes\" comment=\"\" />\r\n      <created>1713874188470</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1713874188470</updated>\r\n      <workItem from=\"1713874189598\" duration=\"12652000\" />\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <option name=\"ADD_EXTERNAL_FILES_SILENTLY\" value=\"true\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -5,45 +5,8 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="6b9475b4-c4ed-499c-ae07-cfd90c04e8dc" name="Changes" comment="">
+-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/ApiGateway/.gitignore" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/ApiGateway/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/ApiGateway/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/ApiGateway/compose.yml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/ApiGateway/mvnw" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/ApiGateway/mvnw.cmd" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/ApiGateway/pom.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/ApiGateway/src/main/java/com/project/apigateway/ApiGatewayApplication.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/ApiGateway/src/main/java/com/project/apigateway/IpAddressKeyResolver.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/ApiGateway/src/main/java/com/project/apigateway/RequestRateLimiterFilterFactory.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/ApiGateway/src/main/java/com/project/apigateway/config/AppConfig.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/ApiGateway/src/main/resources/application.yml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/ApiGateway/src/test/java/com/project/apigateway/ApiGatewayApplicationTests.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/ShortUrlServer/.gitignore" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/ShortUrlServer/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/ShortUrlServer/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/ShortUrlServer/mvnw" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/ShortUrlServer/mvnw.cmd" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/ShortUrlServer/pom.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/ShortUrlServer/src/main/java/com/project/shorturlserver/ShortUrlServerApplication.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/ShortUrlServer/src/main/resources/application.yml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/ShortUrlServer/src/test/java/com/project/shorturlserver/ShortUrlServerApplicationTests.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/ShortUrlService/.gitignore" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/ShortUrlService/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/ShortUrlService/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/ShortUrlService/mvnw" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/ShortUrlService/mvnw.cmd" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/ShortUrlService/pom.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/ShortUrlServiceApplication.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/controller/TestController.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/ShortUrlService/src/main/resources/application.yml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/ShortUrlService/src/test/java/com/project/shorturlservice/ShortUrlServiceApplicationTests.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/controller/TestController.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -58,17 +21,22 @@
+     </option>
+   </component>
+   <component name="Git.Settings">
++    <option name="RECENT_BRANCH_BY_REPOSITORY">
++      <map>
++        <entry key="$PROJECT_DIR$" value="master" />
++      </map>
++    </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+-  <component name="KubernetesApiProvider"><![CDATA[{
+-  "isMigrated": true
+-}]]></component>
++  <component name="KubernetesApiProvider">{
++  &quot;isMigrated&quot;: true
++}</component>
+   <component name="MarkdownSettingsMigration">
+     <option name="stateVersion" value="1" />
+   </component>
+-  <component name="ProjectColorInfo"><![CDATA[{
+-  "associatedIndex": 7
+-}]]></component>
++  <component name="ProjectColorInfo">{
++  &quot;associatedIndex&quot;: 7
++}</component>
+   <component name="ProjectId" id="2fV72gNg7M4YSfS2c4BeuR0bgtT" />
+   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+     <ConfirmationsSetting value="2" id="Add" />
+@@ -96,7 +64,7 @@
+     "Spring Boot.ShortUrlServiceApplication-inst1.executor": "Run",
+     "Spring Boot.ShortUrlServiceApplication-inst2.executor": "Run",
+     "Spring Boot.ShortUrlServiceApplication.executor": "Run",
+-    "git-widget-placeholder": "master",
++    "git-widget-placeholder": "4387c00e",
+     "jdk.selected.JAVA_MODULE": "21",
+     "kotlin-language-version-configured": "true",
+     "last_opened_file_path": "C:/Users/anton/IdeaProjects/urlShort/micro-project/ApiGateway",
+@@ -169,7 +137,9 @@
+       <method v="2" />
+     </configuration>
+     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+-      <deployment type="docker-compose.yml" />
++      <deployment type="docker-compose.yml">
++        <settings />
++      </deployment>
+       <method v="2" />
+     </configuration>
+     <list>
+Index: ShortUrlService/src/main/java/com/project/shorturlservice/controller/TestController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.project.shorturlservice.controller;\r\n\r\nimport org.springframework.beans.factory.annotation.Value;\r\nimport org.springframework.web.bind.annotation.PostMapping;\r\nimport org.springframework.web.bind.annotation.RequestMapping;\r\nimport org.springframework.web.bind.annotation.RestController;\r\n\r\n@RestController\r\n@RequestMapping(\"api/v1/\")\r\npublic class TestController {\r\n\r\n    @Value(\"${eureka.instance.instance-id}\")\r\n    private String id;\r\n    @PostMapping(\"/generate\")\r\n    public String test() {\r\n        System.out.println(\"Hello from \" + id.substring(2, id.length() - 1));\r\n        try {\r\n            Thread.sleep(3000);\r\n        } catch (InterruptedException e) {\r\n            throw new RuntimeException(e);\r\n        }\r\n        return id;\r\n    }\r\n\r\n}\r\n
+===================================================================
+diff --git a/ShortUrlService/src/main/java/com/project/shorturlservice/controller/TestController.java b/ShortUrlService/src/main/java/com/project/shorturlservice/controller/TestController.java
+--- a/ShortUrlService/src/main/java/com/project/shorturlservice/controller/TestController.java	
++++ b/ShortUrlService/src/main/java/com/project/shorturlservice/controller/TestController.java	
+@@ -1,6 +1,7 @@
+ package com.project.shorturlservice.controller;
+ 
+ import org.springframework.beans.factory.annotation.Value;
++import org.springframework.web.bind.annotation.GetMapping;
+ import org.springframework.web.bind.annotation.PostMapping;
+ import org.springframework.web.bind.annotation.RequestMapping;
+ import org.springframework.web.bind.annotation.RestController;
+@@ -11,7 +12,7 @@
+ 
+     @Value("${eureka.instance.instance-id}")
+     private String id;
+-    @PostMapping("/generate")
++    @GetMapping("/generate")
+     public String test() {
+         System.out.println("Hello from " + id.substring(2, id.length() - 1));
+         try {
