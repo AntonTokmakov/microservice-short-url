@@ -4,17 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b9475b4-c4ed-499c-ae07-cfd90c04e8dc" name="Changes" comment="Refactor swagger, add READMI.md">
-      <change afterPath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/config/LogbackConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/error.log" afterDir="false" />
+    <list default="true" id="6b9475b4-c4ed-499c-ae07-cfd90c04e8dc" name="Changes" comment="Add LOKI, set up LogbackConfig">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/READMI.md" beforeDir="false" afterPath="$PROJECT_DIR$/READMI.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/controller/FindLinkController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/controller/FindLinkController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/controller/GeneratedUrlController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/controller/GeneratedUrlController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/controller/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/controller/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/controller/RedirectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/controller/RedirectController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/repository/UrlRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/repository/UrlRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApiGateway/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApiGateway/src/main/resources/application-docker.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGateway/src/main/resources/application-docker.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApiGateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApiGateway/src/test/java/com/project/apigateway/ApiGatewayApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShortUrlServer/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShortUrlServer/src/test/java/com/project/shorturlserver/ShortUrlServerApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShortUrlService/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShortUrlService/data.postgres" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShortUrlService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ShortUrlService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/config/LogbackConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/config/LogbackConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/service/impl/UrlService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/service/impl/UrlService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShortUrlService/src/main/resources/application-docker.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ShortUrlService/src/main/resources/application-docker.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShortUrlService/src/test/java/com/project/shorturlservice/controller/FindLinkControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShortUrlService/src/test/java/com/project/shorturlservice/controller/FindLinkControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShortUrlService/src/test/java/com/project/shorturlservice/controller/GeneratedUrlControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShortUrlService/src/test/java/com/project/shorturlservice/controller/GeneratedUrlControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/error.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +94,7 @@
     "Docker.compose-test.yaml.postgres_test: Compose Deployment.executor": "Run",
     "Docker.compose-test.yaml: Compose Deployment.executor": "Run",
     "Docker.compose.yaml.api-gateway: Compose Deployment.executor": "Run",
+    "Docker.compose.yaml.eureka-server: Compose Deployment.executor": "Run",
     "Docker.compose.yaml.grafana: Compose Deployment.executor": "Run",
     "Docker.compose.yaml.loki: Compose Deployment.executor": "Run",
     "Docker.compose.yaml.postgres: Compose Deployment.executor": "Run",
@@ -94,6 +103,9 @@
     "Docker.compose.yaml.short-url: Compose Deployment.executor": "Run",
     "Docker.compose.yaml: Compose Deployment.executor": "Run",
     "JUnit.All in ShortUrlService.executor": "Run",
+    "JUnit.FindLinkControllerTest.generateShortUrl_SuccessCreateShortUrl_returnShortUrl.executor": "Run",
+    "JUnit.FindLinkControllerTest.getLongLink_SuccessFindLongUrl_returnLongUrl.executor": "Run",
+    "JUnit.FindLinkControllerTest.getLongLink__returnLongUrl.executor": "Debug",
     "JUnit.GeneratedUrlControllerTest.executor": "Run",
     "JUnit.GeneratedUrlControllerTest.generateShortUrl_FailExistsShortUrl_returnConflict.executor": "Coverage",
     "JUnit.GeneratedUrlControllerTest.generateShortUrl_SuccessCreateShortUrl_returnShortUrl.executor": "Run",
@@ -122,8 +134,11 @@
     "JUnit.UrlServiceTest.whenRedirectTo_withExpiredUrl_thenThrowException.executor": "Run",
     "JUnit.UrlServiceTest.whenRedirectTo_withNonExistentShortUrl_thenThrowLinkNotFoundException.executor": "Run",
     "JUnit.UrlServiceTest.whenUrlExpired_thenThrowLifeTimeExpiredException.executor": "Run",
+    "JUnit.shorturlservice in ShortUrlService.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "Maven.ShortUrlService [org.apache.maven.plugins:maven-jar-plugin:3.3.0:jar].executor": "Run",
+    "Maven.micro-project [package,-DskipTests].executor": "Run",
+    "Maven.micro-project [package...].executor": "Run",
     "Maven.micro-project [package].executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
@@ -143,7 +158,7 @@
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "21",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/anton/IdeaProjects/urlShort/micro-project/ShortUrlService/src/test/resources/com/project/shorturlservice/controller/sql/data.sql",
+    "last_opened_file_path": "C:/Users/anton/IdeaProjects/urlShort/micro-project/jar",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -165,11 +180,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\anton\IdeaProjects\urlShort\micro-project\jar" />
       <recent name="C:\Users\anton\IdeaProjects\urlShort\micro-project\ShortUrlService\src\main\resources" />
       <recent name="C:\Users\anton\IdeaProjects\urlShort\micro-project" />
       <recent name="C:\Users\anton\IdeaProjects\urlShort\micro-project\ApiGateway\src\main\resources" />
       <recent name="C:\Users\anton\IdeaProjects\urlShort\micro-project\ShortUrlServer\src\main\resources" />
-      <recent name="C:\Users\anton\IdeaProjects\urlShort\micro-project\ShortUrlService\src\main\java\com\project\shorturlservice" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\anton\IdeaProjects\urlShort\micro-project" />
@@ -185,6 +200,12 @@
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn package" />
+      <command value="mvn package -Dspring.profiles.active=docker " />
+      <command value="mvn package -Dspring.profiles.active=docker -DskipTests " />
+      <command value="mvn package -Dspring.config.location=classpath:application.yml,classpath:application-docker.yml " />
+      <command value="mvn package -Dspring.config.location=classpath:application.yml,classpath:application-docker.yml -DskipTests" />
+      <command value="mvn package -Dspring.config.location=classpath:application-docker.yml -DskipTests" />
+      <command value="mvn package -DskipTests" />
     </option>
   </component>
   <component name="RunDashboard">
@@ -196,56 +217,8 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Docker.compose.yaml.grafana: Compose Deployment">
-    <configuration name="UrlServiceTest.whenGenerateShortUrlWithValidLongUrl_thenShortUrlIsGenerated" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ShortUrlService" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.project.shorturlservice.service.impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.project.shorturlservice.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.project.shorturlservice.service.impl.UrlServiceTest" />
-      <option name="METHOD_NAME" value="whenGenerateShortUrlWithValidLongUrl_thenShortUrlIsGenerated" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UrlServiceTest.whenGetLongUrl_withExpiredUrl_thenThrowException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ShortUrlService" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.project.shorturlservice.service.impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.project.shorturlservice.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.project.shorturlservice.service.impl.UrlServiceTest" />
-      <option name="METHOD_NAME" value="whenGetLongUrl_withExpiredUrl_thenThrowException" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UrlServiceTest.whenUrlExpired_thenThrowLifeTimeExpiredException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ShortUrlService" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.project.shorturlservice.service.impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.project.shorturlservice.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.project.shorturlservice.service.impl.UrlServiceTest" />
-      <option name="METHOD_NAME" value="whenUrlExpired_thenThrowLifeTimeExpiredException" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+  <component name="RunManager" selected="Docker.compose.yaml: Compose Deployment">
+    <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ApiGateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.project.apigateway.ApiGatewayApplication" />
       <method v="2">
@@ -261,7 +234,7 @@
     </configuration>
     <configuration name="ShortUrlServiceApplication-inst1" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <envs>
-        <env name="LOKI" value="http://localhost:3100" />
+        <env name="LOKI" value="http://192.168.31.171:3100" />
       </envs>
       <module name="ShortUrlService" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.project.shorturlservice.ShortUrlServiceApplication" />
@@ -298,6 +271,27 @@
       </deployment>
       <method v="2" />
     </configuration>
+    <configuration name="compose.yaml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="compose.yaml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="compose.yaml.eureka-server: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="eureka-server" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="compose.yaml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <configuration name="compose.yaml.grafana: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
       <deployment type="docker-compose.yml">
         <settings>
@@ -311,12 +305,25 @@
       </deployment>
       <method v="2" />
     </configuration>
-    <configuration name="compose.yaml.postgres: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+    <configuration name="compose.yaml.redis: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
       <deployment type="docker-compose.yml">
         <settings>
           <option name="services">
             <list>
-              <option value="postgres" />
+              <option value="redis" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="compose.yaml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="compose.yaml.short-url: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="short-url" />
             </list>
           </option>
           <option name="sourceFilePath" value="compose.yaml" />
@@ -325,11 +332,11 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Docker.compose.yaml.postgres: Compose Deployment" />
+      <item itemvalue="Docker.compose.yaml.eureka-server: Compose Deployment" />
+      <item itemvalue="Docker.compose.yaml.redis: Compose Deployment" />
+      <item itemvalue="Docker.compose.yaml.short-url: Compose Deployment" />
+      <item itemvalue="Docker.compose.yaml: Compose Deployment" />
       <item itemvalue="Docker.compose.yaml.grafana: Compose Deployment" />
-      <item itemvalue="JUnit.UrlServiceTest.whenGenerateShortUrlWithValidLongUrl_thenShortUrlIsGenerated" />
-      <item itemvalue="JUnit.UrlServiceTest.whenGetLongUrl_withExpiredUrl_thenThrowException" />
-      <item itemvalue="JUnit.UrlServiceTest.whenUrlExpired_thenThrowLifeTimeExpiredException" />
       <item itemvalue="Spring Boot.ApiGatewayApplication" />
       <item itemvalue="Spring Boot.ShortUrlServerApplication" />
       <item itemvalue="Spring Boot.ShortUrlServiceApplication-inst1" />
@@ -338,11 +345,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.compose.yaml: Compose Deployment" />
         <item itemvalue="Docker.compose.yaml.grafana: Compose Deployment" />
-        <item itemvalue="Docker.compose.yaml.postgres: Compose Deployment" />
-        <item itemvalue="JUnit.UrlServiceTest.whenUrlExpired_thenThrowLifeTimeExpiredException" />
-        <item itemvalue="JUnit.UrlServiceTest.whenGenerateShortUrlWithValidLongUrl_thenShortUrlIsGenerated" />
-        <item itemvalue="JUnit.UrlServiceTest.whenGetLongUrl_withExpiredUrl_thenThrowException" />
+        <item itemvalue="Docker.compose.yaml.short-url: Compose Deployment" />
+        <item itemvalue="Docker.compose.yaml.redis: Compose Deployment" />
+        <item itemvalue="Docker.compose.yaml.eureka-server: Compose Deployment" />
       </list>
     </recent_temporary>
   </component>
@@ -368,7 +375,8 @@
       <workItem from="1714154199165" duration="68477000" />
       <workItem from="1714452695477" duration="777000" />
       <workItem from="1714453545315" duration="6051000" />
-      <workItem from="1714552327193" duration="7694000" />
+      <workItem from="1714552327193" duration="40487000" />
+      <workItem from="1714641151658" duration="5513000" />
     </task>
     <task id="LOCAL-00001" summary="Add Project ShortUrlServer, ShortUrlService, ApiGateway. Linked them together">
       <option name="closed" value="true" />
@@ -434,7 +442,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714498905610</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add LOKI, set up LogbackConfig">
+      <option name="closed" value="true" />
+      <created>1714563442430</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1714563442430</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -452,6 +468,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Add Project ShortUrlServer, ShortUrlService, ApiGateway. Linked them together" />
     <MESSAGE value="Add a working shortUrlService" />
@@ -461,7 +478,10 @@
     <MESSAGE value="Add grafana and loki" />
     <MESSAGE value="Refactor grafana and loki" />
     <MESSAGE value="Refactor swagger, add READMI.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor swagger, add READMI.md" />
+    <MESSAGE value="Add LOKI, set up LogbackConfig" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add LOKI, set up LogbackConfig" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -470,6 +490,11 @@
           <url>file://$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/config/GatewayConfig.java</url>
           <line>28</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ShortUrlService/src/test/java/com/project/shorturlservice/controller/FindLinkControllerTest.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

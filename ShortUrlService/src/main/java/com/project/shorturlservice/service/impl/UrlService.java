@@ -38,6 +38,12 @@ public class UrlService implements GeneratorService, RedirectService, FindLink {
     @Override
     public String generateShortUrl(String longUrl) {
 
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+
         if (longUrl == null || longUrl.isEmpty()) {
             log.warn("Long URL cannot be empty");
             throw new IllegalArgumentException("Long URL cannot be empty");

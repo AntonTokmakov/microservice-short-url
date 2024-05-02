@@ -41,6 +41,5 @@ class GeneratedUrlControllerTest {
                                 "{\"shortUrl\":\"http://localhost:8090/api/v1/UZC3aL6Q\"}"
                         )
                 );
-
     }
 }

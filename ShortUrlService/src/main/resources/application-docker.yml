@@ -2,6 +2,10 @@ life:
   url:
     minutes: 10
 
+app:
+  url:
+    prefix: http://localhost:8090/api/v1/
+
 spring:
   application:
     name: ShortUrlService
