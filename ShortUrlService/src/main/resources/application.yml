@@ -10,7 +10,7 @@ spring:
   application:
     name: ShortUrlService
   datasource:
-    url: jdbc:postgresql://localhost:5432/short_url
+    url: jdbc:postgresql://postgres:5432/short_url
     username: admin
     password: password_admin
     driver-class-name: org.postgresql.Driver
@@ -22,7 +22,7 @@ eureka:
   client:
     should-unregister-on-shutdown: false
     service-url:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://eureka-server:8761/eureka/
   instance:
     instance-id: ${spring.application.name}:${random.uuid}
 

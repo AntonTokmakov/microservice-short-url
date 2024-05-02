@@ -7,7 +7,7 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>3.2.5</version>
-        <relativePath/>
+        <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
     <groupId>com.project</groupId>
@@ -70,6 +70,18 @@
             <artifactId>postgresql</artifactId>
             <scope>test</scope>
         </dependency>
+        <!--   Для Grafana и Loki    -->
+        <dependency>
+            <groupId>com.github.loki4j</groupId>
+            <artifactId>loki-logback-appender</artifactId>
+            <version>1.4.2</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.codehaus.janino</groupId>
+            <artifactId>janino</artifactId>
+        </dependency>
+
     </dependencies>
 
     <dependencyManagement>

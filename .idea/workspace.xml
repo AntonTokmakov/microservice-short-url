@@ -4,23 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b9475b4-c4ed-499c-ae07-cfd90c04e8dc" name="Changes" comment="Add LOKI, set up LogbackConfig">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="6b9475b4-c4ed-499c-ae07-cfd90c04e8dc" name="Changes" comment="Remove LOKI">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiGateway/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiGateway/src/main/resources/application-docker.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGateway/src/main/resources/application-docker.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiGateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiGateway/src/test/java/com/project/apigateway/ApiGatewayApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShortUrlServer/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShortUrlServer/src/test/java/com/project/shorturlserver/ShortUrlServerApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShortUrlService/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShortUrlService/data.postgres" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApiGateway/target/ApiGateway-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGateway/target/ApiGateway-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShortUrlServer/target/ShortUrlServer-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ShortUrlServer/target/ShortUrlServer-0.0.1-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShortUrlService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ShortUrlService/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/config/LogbackConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/config/LogbackConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/service/impl/UrlService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/service/impl/UrlService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShortUrlService/src/main/resources/application-docker.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ShortUrlService/src/main/resources/application-docker.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShortUrlService/src/test/java/com/project/shorturlservice/controller/FindLinkControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShortUrlService/src/test/java/com/project/shorturlservice/controller/FindLinkControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShortUrlService/src/test/java/com/project/shorturlservice/controller/GeneratedUrlControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShortUrlService/src/test/java/com/project/shorturlservice/controller/GeneratedUrlControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShortUrlService/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ShortUrlService/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShortUrlService/target/ShortUrlService-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ShortUrlService/target/ShortUrlService-0.0.1-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/compose.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/error.log" afterDir="false" />
     </list>
@@ -217,7 +208,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Docker.compose.yaml: Compose Deployment">
+  <component name="RunManager" selected="Docker.compose.yaml.short-url: Compose Deployment">
     <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ApiGateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.project.apigateway.ApiGatewayApplication" />
@@ -345,9 +336,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.compose.yaml.short-url: Compose Deployment" />
         <item itemvalue="Docker.compose.yaml: Compose Deployment" />
         <item itemvalue="Docker.compose.yaml.grafana: Compose Deployment" />
-        <item itemvalue="Docker.compose.yaml.short-url: Compose Deployment" />
         <item itemvalue="Docker.compose.yaml.redis: Compose Deployment" />
         <item itemvalue="Docker.compose.yaml.eureka-server: Compose Deployment" />
       </list>
@@ -376,7 +367,7 @@
       <workItem from="1714452695477" duration="777000" />
       <workItem from="1714453545315" duration="6051000" />
       <workItem from="1714552327193" duration="40487000" />
-      <workItem from="1714641151658" duration="5513000" />
+      <workItem from="1714641151658" duration="10462000" />
     </task>
     <task id="LOCAL-00001" summary="Add Project ShortUrlServer, ShortUrlService, ApiGateway. Linked them together">
       <option name="closed" value="true" />
@@ -450,7 +441,23 @@
       <option name="project" value="LOCAL" />
       <updated>1714563442430</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Remove LOKI">
+      <option name="closed" value="true" />
+      <created>1714646955117</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1714646955117</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Remove LOKI">
+      <option name="closed" value="true" />
+      <created>1714646992612</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1714646992612</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -479,7 +486,8 @@
     <MESSAGE value="Refactor grafana and loki" />
     <MESSAGE value="Refactor swagger, add READMI.md" />
     <MESSAGE value="Add LOKI, set up LogbackConfig" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add LOKI, set up LogbackConfig" />
+    <MESSAGE value="Remove LOKI" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove LOKI" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -490,11 +498,6 @@
           <url>file://$PROJECT_DIR$/ShortUrlService/src/main/java/com/project/shorturlservice/config/GatewayConfig.java</url>
           <line>28</line>
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ShortUrlService/src/test/java/com/project/shorturlservice/controller/FindLinkControllerTest.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
