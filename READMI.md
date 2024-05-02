@@ -15,9 +15,10 @@
 - **Обработка просроченных коротких URL:** Отображение ошибки, что у короткого URL прошел срок действия.
 - **Ограничение параллельной генерации URL:** Ограничено параллельное создание URL для одного пользователя до 100 URL в единицу времени.
 - **Горизонтальное масштабирование:** Обеспечено горизонтальное масштабирование сервиса, предотвращая одновременную генерацию более 100 URL для всех пользователей по всем экземплярам сервиса.
-- **Docker compose:** Для легкого запуска приложения ([Перейти](compose.yaml)).
+- **Docker compose:** Для легкого запуска приложения (jar уже подготовлены [*перейти*](compose.yaml)).
 
 ## API-точки
 - **Генерация короткого URL:** POST [/api/v1/generate](https://www.postman.com/anton757/workspace/shorturlservice/request/31888042-3c00d5fe-8c41-4c11-9dd6-3c0b98fe5043)
-- **Получение полного URL:** GET [/api/v1/retrieve/{shortUrl}](https://www.postman.com/anton757/workspace/shorturlservice/request/31888042-aa61c090-02a0-4c05-8cdb-c9be30bebd95)
+- **Получение полного URL:**
+  GET [/api/v1/find/long/{shortUrl}](https://www.postman.com/anton757/workspace/shorturlservice/request/31888042-aa61c090-02a0-4c05-8cdb-c9be30bebd95)
 - **Перенаправление на оригинальный URL:** GET [/{shortUrl}](https://www.postman.com/anton757/workspace/shorturlservice/request/31888042-27e416d7-3a0b-4608-a3c9-5c157a0f5782)
