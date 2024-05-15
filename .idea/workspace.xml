@@ -4,33 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b9475b4-c4ed-499c-ae07-cfd90c04e8dc" name="Changes" comment="Add LOKI">
+    <list default="true" id="6b9475b4-c4ed-499c-ae07-cfd90c04e8dc" name="Changes" comment="work configure">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/c664bfc1-6f24-4d7c-8a21-5ed09716ee4a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c664bfc1-6f24-4d7c-8a21-5ed09716ee4a.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_30_04_2024_14_48__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_30_04_2024_14_48__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_30_04_2024_14_53__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_30_04_2024_14_53__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_30_04_2024_15_00__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_30_04_2024_15_00__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ApiGateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiGateway/target/ApiGateway-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGateway/target/ApiGateway-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiGateway/target/ApiGateway-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGateway/target/ApiGateway-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiGateway/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGateway/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiGateway/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGateway/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShortUrlServer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ShortUrlServer/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShortUrlServer/target/ShortUrlServer-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ShortUrlServer/target/ShortUrlServer-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShortUrlServer/target/ShortUrlServer-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/ShortUrlServer/target/ShortUrlServer-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShortUrlServer/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ShortUrlServer/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShortUrlServer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ShortUrlServer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShortUrlService/target/ShortUrlService-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ShortUrlService/target/ShortUrlService-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShortUrlService/target/ShortUrlService-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/ShortUrlService/target/ShortUrlService-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShortUrlService/target/classes/com/project/shorturlservice/config/LogbackConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/ShortUrlService/target/classes/com/project/shorturlservice/config/LogbackConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShortUrlService/target/classes/com/project/shorturlservice/controller/GlobalExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/ShortUrlService/target/classes/com/project/shorturlservice/controller/GlobalExceptionHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShortUrlService/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ShortUrlService/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShortUrlService/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ShortUrlService/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/compose.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/postgres/base/16384/pg_internal.init" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/postgres/global/pg_internal.init" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/postgres/postmaster.pid" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/grafana/data/alerting/1/__default__.tmpl" beforeDir="false" afterPath="$PROJECT_DIR$/grafana/data/alerting/1/__default__.tmpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShortUrlService/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ShortUrlService/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/grafana/data/grafana.db" beforeDir="false" afterPath="$PROJECT_DIR$/grafana/data/grafana.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,100 +69,100 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Docker.ApiGateway/Dockerfile.executor": "Run",
-    "Docker.ApiGateway/compose.yml: Compose Deployment.executor": "Run",
-    "Docker.ShortUrlServer.executor": "Run",
-    "Docker.ShortUrlServer/Dockerfile.executor": "Run",
-    "Docker.ShortUrlService.executor": "Run",
-    "Docker.ShortUrlService/Dockerfile.executor": "Run",
-    "Docker.compose-test.yaml.postgres: Compose Deployment.executor": "Run",
-    "Docker.compose-test.yaml.postgres_test: Compose Deployment.executor": "Run",
-    "Docker.compose-test.yaml: Compose Deployment.executor": "Run",
-    "Docker.compose.yaml.api-gateway: Compose Deployment.executor": "Run",
-    "Docker.compose.yaml.eureka-server: Compose Deployment.executor": "Run",
-    "Docker.compose.yaml.grafana: Compose Deployment.executor": "Run",
-    "Docker.compose.yaml.loki: Compose Deployment.executor": "Run",
-    "Docker.compose.yaml.postgres: Compose Deployment.executor": "Run",
-    "Docker.compose.yaml.redis: Compose Deployment.executor": "Run",
-    "Docker.compose.yaml.short-url-server: Compose Deployment.executor": "Run",
-    "Docker.compose.yaml.short-url: Compose Deployment.executor": "Run",
-    "Docker.compose.yaml: Compose Deployment.executor": "Run",
-    "JUnit.All in ShortUrlService.executor": "Run",
-    "JUnit.FindLinkControllerTest.generateShortUrl_SuccessCreateShortUrl_returnShortUrl.executor": "Run",
-    "JUnit.FindLinkControllerTest.getLongLink_SuccessFindLongUrl_returnLongUrl.executor": "Run",
-    "JUnit.FindLinkControllerTest.getLongLink__returnLongUrl.executor": "Debug",
-    "JUnit.GeneratedUrlControllerTest.executor": "Run",
-    "JUnit.GeneratedUrlControllerTest.generateShortUrl_FailExistsShortUrl_returnConflict.executor": "Coverage",
-    "JUnit.GeneratedUrlControllerTest.generateShortUrl_SuccessCreateShortUrl_returnShortUrl.executor": "Run",
-    "JUnit.GeneratedUrlControllerTest.generateShortUrl_SuccessCreateShortUrl_returnShortUrl2.executor": "Run",
-    "JUnit.GeneratedUrlControllerTest.generateShortUrl_SuccessCreateShortUrl_returnShortUrl3.executor": "Run",
-    "JUnit.GeneratedUrlControllerTest.generateShortUrl_SuccessCreateShortUrl_returnShortUrl4.executor": "Run",
-    "JUnit.RedirectControllerTest.executor": "Run",
-    "JUnit.RedirectControllerTest.redirect_FailRedirectUrl_returnNotFound.executor": "Run",
-    "JUnit.RedirectControllerTest.redirect_FailRedirectUrl_returnNotFoundException.executor": "Run",
-    "JUnit.RedirectControllerTest.redirect_FailRedirectionTimeout_returnExpiredException.executor": "Run",
-    "JUnit.RedirectControllerTest.redirect_SuccessRedirectUrl_returnSite.executor": "Run",
-    "JUnit.UrlServiceTest.executor": "Run",
-    "JUnit.UrlServiceTest.generateShortUrlSuccess.executor": "Run",
-    "JUnit.UrlServiceTest.getShortUrl_SuccessCreateShortUrl_returnShortUrl.executor": "Run",
-    "JUnit.UrlServiceTest.givenExistingLongUrl_whenGenerateShortUrl_thenUpdateShortUrlSuccessfully.executor": "Run",
-    "JUnit.UrlServiceTest.givenNewLongUrl_whenGenerateShortUrl_thenShortUrlGeneratedSuccessfully.executor": "Run",
-    "JUnit.UrlServiceTest.testGenerateShortUrlForExistingLongUrl.executor": "Debug",
-    "JUnit.UrlServiceTest.whenDatabaseExceptionOnExistsBy_thenHandleGracefully.executor": "Run",
-    "JUnit.UrlServiceTest.whenGenerateShortUrlWithNullInput_thenThrowException.executor": "Run",
-    "JUnit.UrlServiceTest.whenGenerateShortUrlWithValidLongUrl_thenShortUrlIsGenerated.executor": "Run",
-    "JUnit.UrlServiceTest.whenGetLongUrl_withExpiredUrl_thenThrowException.executor": "Run",
-    "JUnit.UrlServiceTest.whenGetLongUrl_withNonExistentShortUrl_thenThrowLinkNotFoundException.executor": "Run",
-    "JUnit.UrlServiceTest.whenGetLongUrl_withValidShortUrl_thenReturnsLongUrl.executor": "Run",
-    "JUnit.UrlServiceTest.whenIOExceptionOnRedirect_thenHandleGracefully.executor": "Run",
-    "JUnit.UrlServiceTest.whenRedirectTo_thenRedirectSuccessfully.executor": "Run",
-    "JUnit.UrlServiceTest.whenRedirectTo_withExpiredUrl_thenThrowException.executor": "Run",
-    "JUnit.UrlServiceTest.whenRedirectTo_withNonExistentShortUrl_thenThrowLinkNotFoundException.executor": "Run",
-    "JUnit.UrlServiceTest.whenUrlExpired_thenThrowLifeTimeExpiredException.executor": "Run",
-    "JUnit.shorturlservice in ShortUrlService.executor": "Run",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "Maven.ShortUrlService [org.apache.maven.plugins:maven-jar-plugin:3.3.0:jar].executor": "Run",
-    "Maven.micro-project [package,-DskipTests].executor": "Run",
-    "Maven.micro-project [package...].executor": "Run",
-    "Maven.micro-project [package].executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.ApiGatewayApplication.executor": "Run",
-    "Spring Boot.ShortUrlServerApplication.executor": "Run",
-    "Spring Boot.ShortUrlServiceApplication-inst1.executor": "Run",
-    "Spring Boot.ShortUrlServiceApplication-inst2.executor": "Run",
-    "Spring Boot.ShortUrlServiceApplication-inst3.executor": "Run",
-    "Spring Boot.ShortUrlServiceApplication.executor": "Run",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "21",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/anton/IdeaProjects/urlShort/micro-project/jar",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "Console",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Docker.ApiGateway/Dockerfile.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.ApiGateway/compose.yml: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.ShortUrlServer.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.ShortUrlServer/Dockerfile.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.ShortUrlService.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.ShortUrlService/Dockerfile.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.compose-test.yaml.postgres: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.compose-test.yaml.postgres_test: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.compose-test.yaml: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.compose.yaml.api-gateway: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.compose.yaml.eureka-server: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.compose.yaml.grafana: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.compose.yaml.loki: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.compose.yaml.postgres: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.compose.yaml.redis: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.compose.yaml.short-url-server: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.compose.yaml.short-url: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.compose.yaml: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in ShortUrlService.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FindLinkControllerTest.generateShortUrl_SuccessCreateShortUrl_returnShortUrl.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FindLinkControllerTest.getLongLink_SuccessFindLongUrl_returnLongUrl.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FindLinkControllerTest.getLongLink__returnLongUrl.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.GeneratedUrlControllerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GeneratedUrlControllerTest.generateShortUrl_FailExistsShortUrl_returnConflict.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.GeneratedUrlControllerTest.generateShortUrl_SuccessCreateShortUrl_returnShortUrl.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GeneratedUrlControllerTest.generateShortUrl_SuccessCreateShortUrl_returnShortUrl2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GeneratedUrlControllerTest.generateShortUrl_SuccessCreateShortUrl_returnShortUrl3.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GeneratedUrlControllerTest.generateShortUrl_SuccessCreateShortUrl_returnShortUrl4.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RedirectControllerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RedirectControllerTest.redirect_FailRedirectUrl_returnNotFound.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RedirectControllerTest.redirect_FailRedirectUrl_returnNotFoundException.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RedirectControllerTest.redirect_FailRedirectionTimeout_returnExpiredException.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RedirectControllerTest.redirect_SuccessRedirectUrl_returnSite.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UrlServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UrlServiceTest.generateShortUrlSuccess.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UrlServiceTest.getShortUrl_SuccessCreateShortUrl_returnShortUrl.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UrlServiceTest.givenExistingLongUrl_whenGenerateShortUrl_thenUpdateShortUrlSuccessfully.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UrlServiceTest.givenNewLongUrl_whenGenerateShortUrl_thenShortUrlGeneratedSuccessfully.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UrlServiceTest.testGenerateShortUrlForExistingLongUrl.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.UrlServiceTest.whenDatabaseExceptionOnExistsBy_thenHandleGracefully.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UrlServiceTest.whenGenerateShortUrlWithNullInput_thenThrowException.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UrlServiceTest.whenGenerateShortUrlWithValidLongUrl_thenShortUrlIsGenerated.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UrlServiceTest.whenGetLongUrl_withExpiredUrl_thenThrowException.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UrlServiceTest.whenGetLongUrl_withNonExistentShortUrl_thenThrowLinkNotFoundException.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UrlServiceTest.whenGetLongUrl_withValidShortUrl_thenReturnsLongUrl.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UrlServiceTest.whenIOExceptionOnRedirect_thenHandleGracefully.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UrlServiceTest.whenRedirectTo_thenRedirectSuccessfully.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UrlServiceTest.whenRedirectTo_withExpiredUrl_thenThrowException.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UrlServiceTest.whenRedirectTo_withNonExistentShortUrl_thenThrowLinkNotFoundException.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UrlServiceTest.whenUrlExpired_thenThrowLifeTimeExpiredException.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.shorturlservice in ShortUrlService.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ShortUrlService [org.apache.maven.plugins:maven-jar-plugin:3.3.0:jar].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.micro-project [package,-DskipTests].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.micro-project [package...].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.micro-project [package].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.ApiGatewayApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ShortUrlServerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ShortUrlServiceApplication-inst1.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ShortUrlServiceApplication-inst2.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ShortUrlServiceApplication-inst3.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ShortUrlServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/anton/IdeaProjects/urlShort/micro-project/jar&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Console&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect": [
-      "PostgreSQL"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect&quot;: [
+      &quot;PostgreSQL&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -386,7 +365,9 @@
       <workItem from="1714453545315" duration="6051000" />
       <workItem from="1714552327193" duration="40487000" />
       <workItem from="1714641151658" duration="14601000" />
-      <workItem from="1714672139541" duration="1424000" />
+      <workItem from="1714672139541" duration="2422000" />
+      <workItem from="1714747314635" duration="2526000" />
+      <workItem from="1715766797322" duration="448000" />
     </task>
     <task id="LOCAL-00001" summary="Add Project ShortUrlServer, ShortUrlService, ApiGateway. Linked them together">
       <option name="closed" value="true" />
@@ -508,7 +489,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714667855626</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="work configure">
+      <option name="closed" value="true" />
+      <created>1714673736813</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1714673736813</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -539,7 +528,8 @@
     <MESSAGE value="Add LOKI, set up LogbackConfig" />
     <MESSAGE value="Remove LOKI" />
     <MESSAGE value="Add LOKI" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add LOKI" />
+    <MESSAGE value="work configure" />
+    <option name="LAST_COMMIT_MESSAGE" value="work configure" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
